@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    background: lightgrey;
+}
+
+/*Link styles */
+
+a {
+    text-decoration: none;
+    color: #cccccc;
+    box-shadow: -1px 125px 18px -92px rgba(255,255,255,1);
+}
+
+a:hover {
+    color: dimgrey;
+}
+
+/* Section styles */
+
+.main-nav {
+    width: 100%;
+    background: #222222;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 15px auto;
+}
+
+.nav .name {
+    display: none;
+}
+
+.nav li {
+    padding: 5px 20px 5px 10px;
+}
+
+header {
+    text-align: center;
+    background: url("images/portland.jpg") no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 70px;
+    margin-bottom: 35px;
+}
+
+header .profile-image {
+    margin-top: 90px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid lightgrey;
+    transition: all .5s;
+    box-shadow: 0px 0px 125px -38px rgba(0,0,0,1);
+}
+
+header .profile-image:hover {
+    transform: scale(1.4) rotate(15deg);
+}
+
+.tag {
+    padding: 10px 10px 20px 10px;
+    color: lightgrey;
+}
+
+.location {
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.card {
+    color: #cccccc;
+    border: dimgray 2px solid;
+    margin: 30px 30px 30px 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: darkgray;
+    box-shadow: -13px 65px 113px -46px rgba(0,0,0,0.75);
+}
+
+.card:hover {
+    border-color: lightgrey;
+}
+
+footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 80px 20px;
+    background: #222222;
+}
+
+footer .copyright {
+    top: 20px;
+    margin-right: 20px;
+    margin-top: 35px;
+    margin-bottom: -10px;
+    font-size: .75em;
+    color: lightgrey;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .ul li {
+    display: inline-block;
+}
+
+a.social {
+    display: inline-block;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    text-indent: -9999px;
+}
+a.insta {
+    background-image: url("images/instagram.svg");
+}
+
+a.linkedin {
+    background-image: url("images/linkedin.svg");
+}
+
+a.github {
+    background-image: url("images/github.svg");
+}
+
+a.social:hover {
+    opacity: 1;
+}
+
+/* Styles for larger screens */
+
+@media screen and (min-width: 720px) {
+
+    .flex {
+        display: flex;
+        max-width: 1200px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    header {
+        min-height: 450px;
+    }
+
+    .nav {
+        max-width: 1200px;
+    }
+
+    main p {
+        line-height: 1.6em;
+    }
+
+    footer {
+        font-size: 1.3em;
+        margin: 40px auto;
+    }
+}
