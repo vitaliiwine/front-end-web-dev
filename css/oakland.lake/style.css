@@ -23,12 +23,20 @@ header span {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 90px;
     color: white;
     font-weight: normal;
     margin-top: 24px;
     line-height: 1;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 1.8);
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3  {
+    font-size: 60px;
 }
 
 p {
@@ -47,4 +55,21 @@ a:link {
 
 a:hover {
     color: lightslategray;
+}
+
+/* Lists */
+
+ul {
+    list-style-type: none;
+}
+
+#main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.primary {
+    padding-top: 60px;
+    padding-bottom: 55px;
+    border-radius: 30px;
 }
