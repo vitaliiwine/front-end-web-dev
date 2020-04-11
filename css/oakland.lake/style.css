@@ -32,17 +32,19 @@ h1 {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 h3  {
-    font-size: 60px;
+    font-size: 30px;
 }
 
 p {
     line-height: 1.6;
     padding: 0 24%;
 }
+
+/* Links */
 
 a:link {
     font-size: 20px;
@@ -59,17 +61,25 @@ a:hover {
 
 /* Lists */
 
-ul {
+ul li {
     list-style-type: none;
+    /*margin-left: -20px;*/
+    align-items: center;
+    display: inline-block;
+    justify-content: space-around;
 }
+
+.primary-content {
+    text-align: center;
+}
+
+.secondary-content {
+
+}
+
 
 #main-footer {
     padding-top: 60px;
     padding-bottom: 60px;
-}
-
-.primary {
-    padding-top: 60px;
-    padding-bottom: 55px;
-    border-radius: 30px;
+    border-bottom: solid 10px lightblue;
 }
