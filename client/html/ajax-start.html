@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <title>Ajax starting point</title>
+</head>
+
+<body>
+<h1>Ajax starting point</h1>
+
+<form>
+  <label for="verse=choose">Choose a verse</label>
+  <select name="verse-choose" id="verse=choose">
+    <option value="1">Verse 1</option>
+    <option value="2">Verse 2</option>
+    <option value="3">Verse 3</option>
+    <option value="4">Verse 4</option>
+  </select>
+</form>
+
+<h2>The Conqueror Worm, <em>Edgar Allen Poe, 1983</em></h2>
+
+<pre>
+
+</pre>
+
+<script>
+    const verseChoose = document.querySelector('select')
+    const poemDisplay = document.querySelector('pre')
+
+    verseChoose.onchange = function () {
+        const verse = verseChoose.value
+        updateDisplay(verse)
+    }
+
+    function updateDisplay(verse) {
+        axios.get(`http://localhost:3000/verses/${verse}`).then(response => {
+            const verseText = response.data
+
+            poemDisplay.innerText = verseText
+        })
+    }
+
+    window.onload = () => updateDisplay(1)
+</script>
+</body>
+</html>
