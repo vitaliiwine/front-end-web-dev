@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Ajax startig point</title>
+</head>
+
+<body>
+<h1>Ajax starting point</h1>
+
+<form>
+    <label for="verse=choose">Choose a verse</label>
+    <select name="verse-choose" id="verse=choose">
+        <option>Verse 1</option>
+        <option>Verse 2</option>
+        <option>Verse 3</option>
+        <option>Verse 4</option>
+    </select>
+</form>
+
+<h2>The Conqueror Worm, <em>Edgar Allen Poe, 1983</em></h2>
+
+<pre>
+    
+</pre>
+
+<script>
+    var verseChoose = document.querySelector('select');
+    var poemDisplay = document.querySelector('pre');
+
+    verseChoose.onchange = function () {
+        var verse = verseChoose.value;
+        updateDisplay(verse);
+    }
+
+    function updateDisplay(verse) {
+        verse = verse.replace(" "," ");
+        verse = verse.toLowerCase();
+        var url = verse + '.txt';
+
+        fetch(url).then(function (response) {
+            response.text().then(function (text) {
+                poemDisplay.textContent = text;
+            })
+        })
+    }
+
+    updateDisplay('Verse 1');
+    verseChoose.value = 'Verse 1';
+</script>
+</body>
+</html>
