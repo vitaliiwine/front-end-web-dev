@@ -1,7 +1,6 @@
 body {
-    font-family: 'Oswald', sans-serif;
+    font: 1em/1.5 'Oswald', sans-serif;
     text-align: center;
-    line-height: 1.5;
     color: #4e555b;
     margin: 0;
 }
@@ -33,10 +32,18 @@ h1 {
 
 h2 {
     font-size: 50px;
+    font-weight: normal;
+    line-height: 1.2;
+    border-top: 2px solid lightblue;
+    padding-top: 30px;
+    margin-top: 0;
 }
 
 h3  {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 34px;
 }
 
 p {
@@ -63,7 +70,6 @@ a:hover {
 
 ul li {
     list-style-type: none;
-    /*margin-left: -20px;*/
     align-items: center;
     display: inline-block;
     justify-content: space-around;
@@ -71,15 +77,26 @@ ul li {
 
 .primary-content {
     text-align: center;
+    border-bottom: 4px solid lightblue;
 }
 
-.secondary-content {
-
+.callout {
+    margin-bottom: 40px;
+}
+.secondary-intro,
+.aside-content {
+    padding-bottom: 40px;
+    border-bottom: 4px solid lightblue;
 }
 
-
-#main-footer {
+.main-footer {
     padding-top: 60px;
     padding-bottom: 60px;
     border-bottom: solid 10px lightblue;
 }
+
+.wildlife {
+    background-color: dimgray;
+    color: lightblue;
+}
+
