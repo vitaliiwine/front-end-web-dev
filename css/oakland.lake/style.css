@@ -1,3 +1,9 @@
+/* Base styles ------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font: 1em/1.5 'Oswald', sans-serif;
     text-align: center;
@@ -51,7 +57,39 @@ p {
     padding: 0 24%;
 }
 
-/* Links */
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-bottom: solid 4px lightblue;
+}
+
+/* Lists ------------------------- */
+
+ul,
+ol {
+    margin: 30px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul, ol {
+    margin-bottom: 40px;
+    padding-top: initial;
+    background-size: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/*ul li {*/
+    /*list-style-type: none;*/
+    /*align-items: center;*/
+    /*display: inline-block;*/
+    /*justify-content: space-around;*/
+/*}*/
+
+/* Links ------------------------- */
 
 a:link {
     font-size: 20px;
@@ -66,27 +104,26 @@ a:hover {
     color: lightslategray;
 }
 
-/* Lists */
+/* Main styles ------------------------- */
 
-ul li {
-    list-style-type: none;
-    align-items: center;
-    display: inline-block;
-    justify-content: space-around;
+.main-header {
+    background: #4e555b url('img/header.jpg') no-repeat center;
+    background-size: cover;
 }
 
-.primary-content {
+.primary-content,
+.secondary-content {
     text-align: center;
-    border-bottom: 4px solid lightblue;
+    max-width: 960px;
+    margin: auto;
 }
 
 .callout {
     margin-bottom: 40px;
 }
-.secondary-intro,
-.aside-content {
+.resorts,
+.tips {
     padding-bottom: 40px;
-    border-bottom: 4px solid lightblue;
 }
 
 .main-footer {
@@ -95,8 +132,49 @@ ul li {
     border-bottom: solid 10px lightblue;
 }
 
+/* Layout styles ------------------------- */
+
+
 .wildlife {
-    background-color: dimgray;
-    color: lightblue;
+    color: white;
+    background: #4e555b url('img/wildlife.jpg') no-repeat center;
+    background-size: cover;
+    margin-bottom: 40px;
+    border-bottom: solid 4px lightblue;
 }
 
+/* Floated columns ------------------------- */
+
+.resorts,
+.tips {
+    width: 46.5%;
+    box-sizing: border-box;
+}
+
+.tips img {
+    float: left;
+    border-top: solid 4px lightblue;
+    border-bottom: solid 4px lightblue;
+}
+
+.resorts {
+    float: right;
+    border-top: solid 4px lightblue;
+
+}
+
+.resorts img {
+    margin-bottom: -20px;
+}
+
+.par-resort {
+    margin: 0;
+}
+
+/* Float clearfix ------------------------- */
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
