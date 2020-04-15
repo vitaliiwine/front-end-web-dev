@@ -19,6 +19,9 @@ header {
     border-bottom: 4px solid #4e555b;
 }
 
+.main-header {
+    box-shadow: 0 10px 60px #222222;
+}
 header span {
     color: #fdfdfe;
     font-size: 26px;
@@ -34,7 +37,7 @@ h1 {
     font-weight: normal;
     margin-top: 24px;
     line-height: 1;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 1.8);
+    text-shadow: 5px 8px 10px #222;
 }
 
 h2 {
@@ -128,6 +131,7 @@ a:hover {
     border-bottom: solid 10px lightblue;
     margin-top: 15px;
     background-color: #4e555b;
+    box-shadow: 0 -10px 60px #222222;
 }
 
 #p-footer {
@@ -142,6 +146,7 @@ a:hover {
     background-size: cover;
     margin-bottom: 40px;
     border-bottom: solid 4px lightblue;
+    box-shadow: 5px 10px 60px #222222;
 }
 
 /* Floated columns ------------------------- */
