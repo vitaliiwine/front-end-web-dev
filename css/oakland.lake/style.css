@@ -20,7 +20,7 @@ header {
 }
 
 .main-header {
-    box-shadow: 0 10px 60px #222222;
+    box-shadow: 0 15px 40px -12px #222222;
 }
 header span {
     color: #fdfdfe;
@@ -109,6 +109,11 @@ a:hover {
     background-size: cover;
 }
 
+.intro {
+    padding: 0 10px;
+    font-size: 23px;
+}
+
 .primary-content,
 .secondary-content {
     text-align: center;
@@ -131,7 +136,7 @@ a:hover {
     border-bottom: solid 10px lightblue;
     margin-top: 15px;
     background-color: #4e555b;
-    box-shadow: 0 -10px 60px #222222;
+    box-shadow: 0 -15px 40px -12px #222222;
 }
 
 #p-footer {
@@ -164,13 +169,58 @@ a:hover {
 }
 
 .resorts img {
-    margin-bottom: -20px;
+    margin-bottom: -26px;
 }
 
-/* Float clearfix ------------------------- */
+/* Float clear fix ------------------------- */
 
 .group:after {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Media Queries ------------------------- */
+
+@media (max-width: 1024px) {
+    .intro {
+        padding: 0 5px;
+        font-size: 17px;
+    }
+    .primary-content,
+    .secondary-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        padding: 0 5px;
+        font-size: 14px;
+    }
+    .primary-content,
+    .secondary-content {
+        width: 100%;
+        border: none;
+    }
+    .main-header {
+        max-height: 380px;
+        padding: 20px 25px 0;
+    }
+    .title {
+        font-size: 1.3rem;
+        line-height: 0.5;
+    }
+    h1 {
+        padding-bottom: 20px;
+        margin: 0;
+        font-size: 5rem;
+        line-height: 1;
+    }
+
+    .resorts,
+    .tips {
+        float: none;
+        width: 100%;
+    }
 }
