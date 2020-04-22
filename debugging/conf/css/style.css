@@ -47,3 +47,9 @@ button {
 button:hover {
     opacity: 0.6;
 }
+
+input,
+button {
+    border: none;
+    outline: none;
+}
