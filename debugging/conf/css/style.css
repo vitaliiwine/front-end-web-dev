@@ -1,0 +1,49 @@
+/* Element Styles ----------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #4c4c4c;
+    background-color: #f8fdf3;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    text-shadow: 0 2px 0 rgba(0,0,0, .4);
+    line-height: .65;
+    margin-top: .5em;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.1em;
+    text-shadow: 0 2px 0 rgba(0,0,0, .25);
+}
+
+/* Form Elements ----------------- */
+
+form {
+    width: 60%;
+    background: white;
+    display: inline-block;
+    overflow: hidden;
+    /*display: flex;*/
+    border-radius: .2em;
+    border: solid 4px white;
+    box-shadow: 0 1px 14px rgba(0,0,0, .12);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.6;
+}
