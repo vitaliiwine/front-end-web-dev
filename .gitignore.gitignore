@@ -1,5 +1,0 @@
-*.lock
-node_modules
-.idea
-.vscode
-*-lock.json
