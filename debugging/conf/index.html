@@ -13,7 +13,7 @@
     <header>
         <h1>Conf Log</h1>
         <p>A VH App</p>
-        <form id="register">
+        <form>
             <input type="text" name="name" placeholder="Invite a participant">
             <button class="btn-submit" type="submit" name="submit" value="submit">
                 Submit
@@ -23,7 +23,37 @@
 
     <div class="main">
         <h2>Participants</h2>
-        <ul id="invited-list"></ul>
+        <label class="hide-participants">Hide the ones who didn't respond
+            <input type="checkbox"></label>
+        <ul class="participants-list" id="invited-list">
+            <li class="participant">
+                <span>Member 1</span>
+                <label>Confirmed<input type="checkbox"></label>
+                <button>edit</button>
+                <button>remove</button>
+            </li>
+
+            <li class="participant">
+                <span>Member 2</span>
+                <label>Confirmed<input type="checkbox"></label>
+                <button>edit</button>
+                <button>remove</button>
+            </li>
+
+            <li class="participant">
+                <span>Member 3</span>
+                <label>Confirmed<input type="checkbox"></label>
+                <button>edit</button>
+                <button>remove</button>
+            </li>
+
+            <li class="participant">
+                <span>Member 4</span>
+                <label>Confirmed<input type="checkbox"></label>
+                <button>edit</button>
+                <button>remove</button>
+            </li>
+        </ul>
     </div>
 </div>
 <script type="text/javascript" src="#"></script>
