@@ -1,0 +1,27 @@
+body {
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: "Manrope", sans-serif;
+    background-color: #3659a2;
+    box-sizing: border-box;
+}
+
+main {
+    width: 90%;
+    max-width: 1080px;
+    padding: 40px 0 0;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.75em;
+}
+
+h2 {
+    font-size: 2.25em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
