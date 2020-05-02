@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/self.destruct.message.iml" filepath="$PROJECT_DIR$/.idea/self.destruct.message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../javaScriptBase/.idea/javaScriptBase.iml" filepath="$PROJECT_DIR$/../javaScriptBase/.idea/javaScriptBase.iml" />
     </modules>
   </component>
 </project>
