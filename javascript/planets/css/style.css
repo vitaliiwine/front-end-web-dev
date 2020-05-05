@@ -1,0 +1,12 @@
+body {
+    background: black;
+    color: lightgrey;
+    padding: 30px 50px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 30%;
+    border: 2px solid lightgrey;
+}
