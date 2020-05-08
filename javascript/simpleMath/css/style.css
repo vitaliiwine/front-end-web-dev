@@ -1,0 +1,14 @@
+body {
+    color: #fff;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: lightslategray;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    max-width: 1080px;
+    padding: 60px 0 0;
+    margin: 0 auto;
+}
