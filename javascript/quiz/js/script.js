@@ -12,6 +12,10 @@ let wrongAnswers = 0;
 
 let rank = '';
 
+// Selecting <main> element
+
+ const main = document.querySelector('main');
+
 // Storing answers
 
 const answer0 = prompt("What's the abb for a hypertext markup language?");
@@ -53,12 +57,15 @@ if (answer4.toUpperCase() === 'NO') {
 
 if (correctAnswers === 5) {
     rank = "Wow! Just a Pro. Gongrats, you won the Gold Crown!";
-} else if (correctAnswers === 4 || correctAnswers === 3) {
+} else if (correctAnswers >= 3) {
     rank = "Nice! You have just achieved the Silver Crown!";
-} else if (correctAnswers === 2 || correctAnswers === 1) {
+} else if (correctAnswers >= 1) {
     rank = "Not bad! You can have the Bronze Crown!";
-} else rank = "Oops! Seems like you failed this time."
+} else rank = "Oops! Seems like you failed this time.";
 
-document.querySelector('main').innerHTML = rank;
+// Output
 
-console.log(rank);
+ main.innerHTML = `
+ <h2>You got ${correctAnswers} correct answers!</h2>
+ <p>${rank}</p>
+ `;

@@ -5,7 +5,7 @@ body {
     background-color: #36592a;
 }
 
-main, header {
+main {
     width: 90%;
     max-width: 1080px;
     padding: 40px 0 0;
