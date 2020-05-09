@@ -35,6 +35,3 @@ if (num1 === 0) {
 
     document.querySelector('main').innerHTML = message;
 }
-
-
-1
