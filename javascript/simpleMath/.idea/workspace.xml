@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0153da14-fd48-41eb-bb4a-0c28301cdbdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../randomNum/js/randomise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../randomNum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../randomNum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../randomNum/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../randomNum/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../randomNum/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../randomNum/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,7 +83,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
+    <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
