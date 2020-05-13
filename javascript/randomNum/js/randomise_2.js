@@ -1,5 +1,5 @@
 /*The program accepts two numbers and gives back one
-* in an interval between two given numbers */
+ * in an interval between two given numbers */
 
 // Storing input
 

@@ -1,5 +1,5 @@
 /* The program collects a number and returns a random one
- where the collected number is the highest possible */
+ * where the collected number is the highest possible */
 
 // Collecting input
 
