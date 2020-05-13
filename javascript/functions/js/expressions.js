@@ -4,7 +4,7 @@
 
 function isFieldEmpty() {
     const field = document.querySelector('#info');
-    if (field.value === '') {
+    if (!field.value) {
         return true;
     } else {
         return false;
@@ -15,6 +15,8 @@ function isFieldEmpty() {
 
 const fieldTest = isFieldEmpty();
 
-if (fieldTest === true) {
-    alert("Please provide the info required")
+// Preventing inputs from being left empty
+
+if (fieldTest) {
+    alert("Please provide the info required.");
 }
