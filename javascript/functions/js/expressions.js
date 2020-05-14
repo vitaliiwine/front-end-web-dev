@@ -1,15 +1,13 @@
 // The program checks if the input forms are filled
 
-// Declaring a function to check inputs
+// Implementing a function expression to check inputs
 
-function isFieldEmpty() {
+const isFieldEmpty = function() {
     const field = document.querySelector('#info');
     if (!field.value) {
         return true;
-    } else {
-        return false;
     }
-}
+};
 
 // Storing returned value from function to a variable
 
