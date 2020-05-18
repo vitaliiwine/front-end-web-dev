@@ -1,0 +1,38 @@
+/* ------------- Base Element Styles */
+
+body {
+    line-height: 1.6;
+    color: #3a3a3a;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* -------------- Base Layout Styles */
+
+
+/* Navigation -----------------------*/
+
+.name {
+    margin: 0;
+}
+
+/* layout Containers ----------------*/
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-header {
+    background: #3acec2;
+    padding: 1em 0;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 2em 0;
+    background: #d9e4ea;
+}
