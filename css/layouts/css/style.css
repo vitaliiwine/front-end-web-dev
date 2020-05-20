@@ -1,14 +1,26 @@
 /* ------------- Base Element Styles */
 
-
+* {
+    box-sizing: border-box;
+}
 
 body {
+    font-family: 'Balsamiq Sans', cursive;
     line-height: 1.6;
     color: #3a3a3a;
 }
 
+p {
+    font-size: .95em;
+    margin-bottom: 1.5em;
+}
+
+h2 {
+    margin-top: 0;
+}
+
 a {
-    color: #fff;
+    color: #998056;
     text-decoration: none;
 }
 
@@ -20,20 +32,63 @@ a {
     margin: 0;
 }
 
+.name,
+.main-nav li {
+    text-align: center;
+    background: #fff;
+}
+
+.name a:hover {
+    color: #afccbc;
+}
+
+.main-nav a {
+    font-size: .95em;
+    color: #3a3a3a;
+}
+
+.main-nav a:hover {
+    color: #b5ffea;
+}
+
 /* layout Containers ----------------*/
 
 .container {
-    width: 70%;
-    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .main-header {
-    background: #3acec2;
-    padding: 1em 0;
+    background: #b5ffea;
+    padding: 1.5em 0;
+    margin: 0 0 30px;
+
 }
 
 .main-footer {
     text-align: center;
     padding: 2em 0;
-    background: #d9e4ea;
+    background: #afccbd;
+}
+
+/* --------------------- Media Queries */
+
+@media (min-width: 769px) {
+
+    .container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .name,
+    .main-nav,
+    .main-nav li {
+        display: inline;
+    }
+
+    .name {
+        width: 240px;
+        margin-right: 50px;
+    }
 }
