@@ -29,13 +29,16 @@ a {
 /* Navigation -----------------------*/
 
 .name {
-    margin: 0;
+    padding: 10px 15px;
+    color: #3a3a3a;
+    font-size: 1.5em;
 }
 
 .name,
 .main-nav li {
     text-align: center;
     background: #fff;
+    margin: 6px 0;
 }
 
 .name a:hover {
@@ -44,7 +47,7 @@ a {
 
 .main-nav a {
     font-size: .95em;
-    color: #3a3a3a;
+    padding: 10px 15px;
 }
 
 .main-nav a:hover {
@@ -76,8 +79,8 @@ a {
 @media (min-width: 769px) {
 
     .container {
-        width: 70%;
-        max-width: 1000px;
+        width: 80%;
+        max-width: 1150px;
         margin: 0 auto;
     }
 
