@@ -16,6 +16,7 @@ p {
 }
 
 h2 {
+    text-align: center;
     margin-top: 0;
 }
 
@@ -29,12 +30,13 @@ a {
 /* Navigation -----------------------*/
 
 .name {
-    padding: 10px 15px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #3a3a3a;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
-.name,
 .main-nav li {
     text-align: center;
     background: #fff;
@@ -46,8 +48,9 @@ a {
 }
 
 .main-nav a {
+    text-align: center;
     font-size: .95em;
-    padding: 10px 15px;
+    padding: 5px 15px;
 }
 
 .main-nav a:hover {
@@ -57,15 +60,13 @@ a {
 /* layout Containers ----------------*/
 
 .container {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: .3em 1em;
 }
 
 .main-header {
     background: #b5ffea;
-    padding: 1.5em 0;
-    margin: 0 0 30px;
-
+    padding: 0;
+    margin: 0 0 20px;
 }
 
 .main-footer {
@@ -84,14 +85,51 @@ a {
         margin: 0 auto;
     }
 
-    .name,
-    .main-nav,
-    .main-nav li {
-        display: inline;
+    .name {
+        float: left;
     }
 
-    .name {
-        width: 240px;
-        margin-right: 50px;
+    .main-nav {
+        margin: 30px;
+        float: right;
+    }
+
+    .main-nav li {
+        margin-left: 1em;
+        float: left;
+    }
+
+    .clear-fix {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /*.name,*/
+    /*.main-nav,*/
+    /*.main-nav li {*/
+        /*display: inline;*/
+    /*}*/
+
+
+    .secondary-img {
+        width: 300px;
+        float: right;
+        margin: 3em 1em 0 2em;
+        padding: .8em;
+        border: solid 3px #b5ffea;
+    }
+
+    .primary {
+        width: 40%;
+    }
+
+    .secondary {
+        width: 60%;
+    }
+
+    .col {
+        float: left;
+        padding: 0 1em 0 1em;
     }
 }
