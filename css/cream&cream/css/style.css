@@ -1,0 +1,172 @@
+/* ------------- Base Element Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    line-height: 1.6;
+    color: #3a3a3a;
+}
+
+p {
+    line-height: .95em;
+    margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+    color: #504d6b;
+}
+
+h2,
+h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* -------------- Base Layout Styles */
+
+/* Navigation -----------------------*/
+
+.name {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.name,
+.main-nav a {
+    color: #3a3a3a;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.main-nav a {
+    font-size: .95em;
+}
+
+.main-nav a:hover {
+    background: #504d6b;
+    color: #fff;
+}
+
+/* layout Containers ----------------*/
+
+.main-header {
+    padding: .5em 0;
+}
+
+.banner {
+    color: #fff;
+    padding: 3.2em 0;
+    margin-bottom: 1.5em;
+}
+
+.main-footer {
+    color: #3a3a3a;
+    background: #d9e4ea;
+}
+
+.banner,
+.main-footer {
+    text-align: center;
+    background: #504d6b;
+}
+
+.col {
+    padding: 0 1em;
+}
+
+.headline,
+.tagline {
+    text-align: center;
+    margin: 0;
+}
+
+.main-footer {
+    background: #d9e4ea;
+    padding: 2em 0;
+}
+
+/* Page Elements ---------------------*/
+
+.logo {
+    width: 120px;
+}
+
+.headline {
+    margin-bottom: 0;
+}
+
+/* --------------------- Media Queries */
+
+@media (min-width: 769px) {
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .name,
+    .col {
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 1em;
+    }
+
+    .tagline {
+        font-size: 1.4em;
+    }
+
+    .primary,
+    .secondary {
+        width: 50%;
+    }
+
+    .feat-img {
+        width: 550px;
+        height: 250px;
+    }
+
+    /*--- Float Clear-fix ---*/
+
+    .clear-fix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .container {
+        width: 80%;
+        max-width: 1150px;
+    }
+
+    .primary {
+        width: 40%;
+    }
+
+    .secondary,
+    .tertiary {
+        width: 30%;
+    }
+}
