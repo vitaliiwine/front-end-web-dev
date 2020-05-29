@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d411e7c9-bb69-44e9-b267-56010d9b4285" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/cream&amp;cream.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/node_modules/normalize.css/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/node_modules/normalize.css/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/node_modules/normalize.css/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/node_modules/normalize.css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/node_modules/normalize.css/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cream&amp;cream/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cream&amp;cream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="357">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -50,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/normalize.css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
+            <state relative-caret-position="6171">
               <caret line="363" selection-start-line="357" selection-end-line="363" />
             </state>
           </provider>
@@ -73,12 +60,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -93,7 +80,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../hungriee" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cream&amp;cream" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -129,15 +116,15 @@
       <workItem from="1590130216462" duration="3431000" />
       <workItem from="1590218789389" duration="5331000" />
       <workItem from="1590474019778" duration="4299000" />
+      <workItem from="1590559599751" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31976000" />
+    <option name="totallyTimeSpent" value="32070000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="1" />
-    <editor active="true" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -164,22 +151,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/normalize.css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="6171">
           <caret line="363" selection-start-line="357" selection-end-line="363" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>

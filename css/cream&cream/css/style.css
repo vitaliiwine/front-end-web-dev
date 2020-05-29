@@ -12,7 +12,7 @@ body {
 
 p {
     line-height: .95em;
-    margin-bottom: 1.8em;
+    margin-bottom: .2em;
 }
 
 h2,
@@ -22,8 +22,10 @@ a {
 }
 
 h2,
-h3 {
+h3,
+h4 {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 a {
@@ -32,6 +34,34 @@ a {
 
 img {
     max-width: 100%;
+}
+figcaption {
+    font-size: .9em;
+    line-height: 1.5;
+    color: #fff;
+    padding: 1em;
+    background: rgba(80, 77, 107, .9);
+    position: absolute;
+    bottom: 0;
+}
+
+figure {
+    line-height: 0;
+    position: relative;
+}
+
+.col {
+    margin: 0 1em;
+}
+
+.location-icon {
+    background: white;
+    border-radius: 50%;
+    width: 35px;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+
 }
 
 /* -------------- Base Layout Styles */
@@ -83,8 +113,9 @@ img {
     background: #504d6b;
 }
 
-.col {
-    padding: 0 1em;
+.col-heading {
+    text-align: center;
+    margin-bottom: .7em;
 }
 
 .headline,
@@ -145,6 +176,14 @@ img {
         height: 250px;
     }
 
+    .main-footer {
+        margin-top: 1.3em;
+    }
+
+    .col {
+        margin: 0;
+    }
+
     /*--- Float Clear-fix ---*/
 
     .clear-fix::after {
@@ -168,5 +207,9 @@ img {
     .secondary,
     .tertiary {
         width: 30%;
+    }
+
+    .col {
+        margin: 0;
     }
 }
