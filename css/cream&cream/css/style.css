@@ -46,6 +46,7 @@ figcaption {
 }
 
 figure {
+    z-index: -10;
     line-height: 0;
     position: relative;
 }
@@ -111,6 +112,7 @@ figure {
 .main-footer {
     text-align: center;
     background: #504d6b;
+    box-shadow: 0 2px 4px #3a3a3a;
 }
 
 .col-heading {
@@ -142,6 +144,18 @@ figure {
 /* --------------------- Media Queries */
 
 @media (min-width: 769px) {
+
+    .banner {
+        margin-top: 52px;
+    }
+
+    .main-header {
+        position: fixed;
+        background-color: #c0c0c0;
+        width: 100%;
+        box-shadow: 0 2px 4px #3a3a3a;
+        top: 0;
+    }
 
     .container {
         width: 80%;
