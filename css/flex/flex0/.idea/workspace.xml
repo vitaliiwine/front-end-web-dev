@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7759e12-46de-4706-a239-d7271f230204" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flex1/css/flexbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex1/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flex1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/treehouse-white.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/treehouse-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/img/treehouse-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/CHANGELOG.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/node_modules/normalize.css/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/LICENSE.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/node_modules/normalize.css/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/node_modules/normalize.css/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/node_modules/normalize.css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/node_modules/normalize.css/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/flex0/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,44 +36,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flex0/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flex0/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flex1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flex1/css/page.css">
+        <entry file="file://$PROJECT_DIR$/flex0/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="17">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flex1/css/flexbox.css">
+        <entry file="file://$PROJECT_DIR$/flex0/node_modules/normalize.css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="5967">
+              <caret line="351" column="24" selection-start-line="351" selection-start-column="24" selection-end-line="351" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -91,16 +79,13 @@
         <option value="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/flex1/css/page.css" />
-        <option value="$PROJECT_DIR$/flex1/index.html" />
-        <option value="$PROJECT_DIR$/flex1/css/flexbox.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="975" />
-    <option name="height" value="1039" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,36 +100,21 @@
               <item name="flex" type="b2602c69:ProjectViewProjectNode" />
               <item name="flex" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="flex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flex" type="462c0819:PsiDirectoryNode" />
-              <item name="flex0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flex" type="462c0819:PsiDirectoryNode" />
-              <item name="flex0" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/3-building-a-layout-with-flexbox/1-navigation-bar-with-flexbox/start" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wine\WebstormProjects\treehouse\css\flex\flex0" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,18 +141,17 @@
       <workItem from="1591325297628" duration="3146000" />
       <workItem from="1591507724339" duration="1457000" />
       <workItem from="1591776104559" duration="1196000" />
-      <workItem from="1591866059956" duration="5098000" />
-      <workItem from="1592034699392" duration="1338000" />
+      <workItem from="1591866059956" duration="251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12235000" />
+    <option name="totallyTimeSpent" value="6050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="780" height="831" extended-state="0" />
+    <frame x="760" y="0" width="784" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.50201887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24899599" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,45 +174,24 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/flex0/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flex0/node_modules/normalize.css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="334" column="3" lean-forward="true" selection-start-line="334" selection-start-column="3" selection-end-line="334" selection-end-column="3" />
+        <state relative-caret-position="5967">
+          <caret line="351" column="24" selection-start-line="351" selection-start-column="24" selection-end-line="351" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flex0/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex1/css/flexbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex0/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex1/css/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="17">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
         </state>
       </provider>
     </entry>
