@@ -116,7 +116,8 @@ img {
 
 @media (min-width: 769px) {
     .main-header,
-    .row {
+    .row,
+    .footer-inner {
         width: 90%;
         margin: 0 auto;
         max-width: 1150px;
@@ -129,7 +130,8 @@ img {
 
 @media (min-width: 1025px) {
     .main-header,
-    .row {
+    .row,
+    .footer-inner {
         width: 80%;
         max-width: 1150px;
     }
