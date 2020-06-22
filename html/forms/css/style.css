@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Nanum Gothic Coding', monospace;
+    color: #384047;
 }
 
 /* Form Styles --------------------- */
@@ -29,7 +30,15 @@ h1 {
 input[type="text"],
 input[type="password"],
 input[type="email"],
-textarea {
+input[type="date"],
+input[type="datetime-local"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
     background: rgba(255, 255, 255, 0.1);
     border: none;
     height: auto;
@@ -55,6 +64,33 @@ button {
     margin-bottom: 10px;
 }
 
+fieldset {
+    margin-bottom: 30px;
+}
+
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+}
 /* Media Queries --------------------- */
 
 @media screen and (min-width: 480px){

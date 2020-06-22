@@ -30,11 +30,33 @@
     </fieldset>
     <fieldset>
 
-        <legend><span class="number">2</span>Comment Out</legend>
+        <legend><span class="number">2</span>Your Profile</legend>
 
-        <label for="comment">Comment</label>
-        <textarea id="comment" cols="20" rows="5" name="user_comment" placeholder="Leave your thoughts here"></textarea>
+        <label for="bio">Short bio</label>
+        <textarea id="bio" cols="30" rows="10" name="user_bio" placeholder="Tell us about yourself"></textarea>
 
+        <label for="job">Job role</label>
+        <select id="job" name="user_job">
+
+            <optgroup label="web">
+                <option value="frontend_developer">Front-End Developer</option>
+                <option value="php_developer">PHP Developer</option>
+                <option value="python_developer">Python Developer</option>
+                <option value="web_designer">Web Designer</option>
+                <option value="wordpress_developer">WordPress Developer</option>
+            </optgroup>
+
+            <optgroup label="mobile">
+                <option value="android_developer">Android Developer</option>
+                <option value="ios_developer">iOS Developer</option>
+                <option value="mobile_designer">Mobile Designer</option>
+            </optgroup>
+
+            <optgroup label="business">
+                <option value="project_m">Project Manager</option>
+                <option value="product_m">Product Manager</option>
+            </optgroup>
+        </select>
     </fieldset>
 
     <button type="submit">Submit</button>
