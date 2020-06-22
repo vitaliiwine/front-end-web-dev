@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Forms</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lusitana&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana&family=Nanum+Gothic+Coding&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,10 +13,30 @@
 
 <form action="index.html" method="post">
     <h1>Sign Up</h1>
-    <input type="text" id="name" name="user_name" placeholder="Name">
-    <input type="email" id="mail" name="user_email" placeholder="Email">
-    <input type="password" id="password" name="user_password" placeholder="Password">
-    <textarea id="comment" cols="20" rows="5" name="user_comment" placeholder="Leave your comment here"></textarea>
+
+    <fieldset>
+
+        <legend><span class="number">1</span>Basic Info</legend>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="user_name" placeholder="Name">
+
+        <label for="mail">Mail</label>
+        <input type="email" id="mail" name="user_email" placeholder="Email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="user_password" placeholder="Password">
+
+    </fieldset>
+    <fieldset>
+
+        <legend><span class="number">2</span>Comment Out</legend>
+
+        <label for="comment">Comment</label>
+        <textarea id="comment" cols="20" rows="5" name="user_comment" placeholder="Leave your thoughts here"></textarea>
+
+    </fieldset>
+
     <button type="submit">Submit</button>
 </form>
 
