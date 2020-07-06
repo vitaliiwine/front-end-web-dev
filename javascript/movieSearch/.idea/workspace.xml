@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15cfc902-78f4-4008-8d32-560ecd43ad34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/movieSearch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/components/Movie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooked/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooked/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooked/src/components/Header.js" afterDir="false" />
-    </list>
+    <list default="true" id="15cfc902-78f4-4008-8d32-560ecd43ad34" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/hooked/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -154,6 +129,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../theBlog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -186,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594014977807</updated>
-      <workItem from="1594014979304" duration="3456000" />
+      <workItem from="1594014979304" duration="4121000" />
     </task>
     <task id="LOCAL-00001" summary="start, initial">
       <created>1594042539736</created>
@@ -199,7 +175,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3456000" />
+    <option name="totallyTimeSpent" value="4121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
@@ -264,7 +240,7 @@
     <entry file="file://$PROJECT_DIR$/hooked/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
