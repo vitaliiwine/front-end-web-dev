@@ -1,0 +1,30 @@
+/* Base Styles -------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+.shop-name {
+    margin-top: 80px;
+}
+
+.card {
+    box-shadow: 2px 22px 96px -14px rgba(0,0,0,0.75);
+}
+
+.row-stock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stock {
+    width: 300px;
+}
