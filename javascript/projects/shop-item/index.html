@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<!--Nav-bar-->
+<!-- Nav-bar -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
@@ -41,6 +41,8 @@
     </div>
 </nav>
 
+<!-- Main Content -->
+
 <div id="app" class="container">
 
     <div class="row">
@@ -48,7 +50,8 @@
         <div class="col-lg-3">
             <h1 class="shop-name">Cart</h1>
         </div>
-        <!-- /.col-lg-3 -->
+
+        <!-- Item Card -->
 
         <div class="col-lg-9">
 
@@ -61,7 +64,7 @@
                     <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
                     4.0 stars
                 </div>
-                <div class="card-footer row-stock pt-3">
+                <div class="card-footer row-stock pt-2">
                     <p v-if="inventory > 10">Availability: In Stock!</p>
                     <p class="stock" v-else-if="inventory <=10 && inventory > 0">Availability: Almost Sold Out!</p>
                     <p class="stock" v-else="inventory < 0">Availability: Out of Stock!</p>
@@ -72,7 +75,9 @@
                 </div>
             </div>
 
-            <!-- /.card -->
+            <!-- /.card-->
+
+            <!-- Review Card -->
 
             <div class="card card-outline-secondary my-4">
                 <div class="card-header">
@@ -97,26 +102,20 @@
 
                 </div>
             </div>
+
             <!-- /.card -->
 
         </div>
-        <!-- /.col-lg-9 -->
-
     </div>
-
 </div>
 
+<!--  Footer  -->
 
 <footer class="py-5 bg-dark">
     <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
     </div>
-    <!-- /.container -->
 </footer>
-
-_________________________________________________________________________________________________________________________
-<!--Vue Object-->
-
 
 <script src="js/main.js"></script>
 </body>
