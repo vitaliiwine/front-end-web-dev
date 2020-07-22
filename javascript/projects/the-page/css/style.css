@@ -1,0 +1,53 @@
+/* Origins -------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nav-bar-image {
+    width: 38px;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Main Styles -------------------- */
+
+#app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#app .product {
+    padding: 15px;
+    border: 1px solid slategray;
+    flex: 2 1 300px;
+}
+
+.product-image img {
+    width: 350px;
+}
+
+#app .product-info {
+    padding: 15px;
+    border: 1px solid slategray;
+    flex: 2 1 300px;
+}
+
+.container-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.m-1 {
+    flex: 1 1;
+    text-align: center;
+}
+
+
+
