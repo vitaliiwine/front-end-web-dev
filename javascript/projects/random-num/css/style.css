@@ -1,0 +1,27 @@
+body {
+    color: #ffffff;
+   font-family: "Comic Sans MS", sans-serif;
+    box-sizing: border-box;
+    background-color: #3f8a;
+}
+
+main {
+    width: 90%;
+    max-width: 1080px;
+    padding: 40px 0 0;
+    margin: 0 auto;
+}
+
+main div {
+    color: #3f8a;
+    font-weight: 500;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 58px;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0.5em;
+}
