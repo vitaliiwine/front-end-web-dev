@@ -28,3 +28,20 @@
 .stock {
     width: 300px;
 }
+
+.card-footer {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0 60px;
+}

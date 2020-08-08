@@ -73,6 +73,11 @@
                     <a class="stock btn btn-success" v-on:click="cart += 1">Add to Cart</a>
                     <a class="stock btn btn-warning">My Cart ( {{ cart }} )</a>
                 </div>
+
+                <ul class="card-footer">
+                    <li class="details" v-for="detail in details">{{ detail }}</li>
+                </ul>
+
             </div>
 
             <!-- /.card-->

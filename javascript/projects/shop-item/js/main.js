@@ -7,6 +7,7 @@ var app = new Vue({
         price: "$4.99",
         inventory: 7,
         onSale: true,
-        cart: 0
+        cart: 0,
+        details: ["led-flash", "steel-based", "gender-neutral"]
     }
 });

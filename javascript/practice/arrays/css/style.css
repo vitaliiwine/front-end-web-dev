@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-size: 1em;
+    font-family: "Comic Sans MS" , sans-serif;
+    padding-top: 1em;
+    background-color: #42b4d6;
+}
+
+main {
+    width: 60%;
+    max-width: 1080px;
+    padding: 40px 0 0;
+    margin: 0 auto;
+}
+
+main p {
+    font-size: 1.9em;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+}

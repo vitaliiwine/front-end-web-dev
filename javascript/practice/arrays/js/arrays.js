@@ -46,3 +46,14 @@ const pets = [...cats, ...dogs]
 
 main.innerHTML = pets;
 
+const scores = [34, 12, 13, 37, 22];
+let total = 0;
+
+for (let i = 0; i < scores.length; i++) {
+    total += scores[i];
+}
+
+console.log(total / scores.length);
+
+
+
