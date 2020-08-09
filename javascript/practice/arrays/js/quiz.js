@@ -6,15 +6,33 @@ const quiz = [
     ["What's HTML stand for?", "hyper text markup language"]
 ];
 
-let correctAnswers = 0;
+let correct = [];
+let incorrect = [];
 
 for (let i = 0; i < quiz.length; i++) {
     let question = quiz[i][0];
     let answer = quiz[i][1];
     let response = prompt(question);
 
-    if (response.toLowerCase() === answer)
-        correctAnswers++;
+    if (response.toLowerCase() === answer) {
+        correct.push(question);
+    } else incorrect.push(question);
 }
 
-document.querySelector('main').innerHTML = `Hey, you've got ${correctAnswers} correct answer(s) out of ${quiz.length}`;
+function createList(arr) {
+    let items = '';
+    for (let i = 0; i < arr.length; i++) {
+        items += `<li>${arr[i]}</li>`;
+    } return items;
+}
+
+let html = `
+    <h1>Hey, you've got these ${correct.length} question(s) right, good job!</h1>
+    <ol>${createList(correct)}</ol>
+    
+    <h1>Hey, you've got these ${incorrect.length} question(s) wrong, better luck next time!</h1>
+    <ol>${createList(incorrect)}</ol>
+`;
+
+
+document.querySelector('main').innerHTML = html;

@@ -1,4 +1,4 @@
-// ADD ELEMENTS
+// JS array methods
 
 const main = document.querySelector('main');
 
@@ -19,8 +19,6 @@ players.unshift("Alexios");
 
 main.innerHTML = players;
 
-// REMOVE ELEMENTS
-
 const shoppingList = [
     "bread",
     "butter",
@@ -38,13 +36,13 @@ console.log(shoppingList);
 let lastItem = shoppingList.pop();
 console.log(shoppingList);
 
-// Combining two arrays (SPREAD)
+// Combining two arrays (spread)
 
 const cats = ["Tom", "Murka", "Basya"];
 const dogs = ["Richard", "Boy", "Arni"];
-const pets = [...cats, ...dogs]
+const pets = [...cats, ...dogs];
 
-main.innerHTML = pets;
+main.innerHTML = pets[5];
 
 const scores = [34, 12, 13, 37, 22];
 let total = 0;

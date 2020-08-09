@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef83ad5-f5ae-474d-85f3-9f8c6a0bbbb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/indexOF.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/quiz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/search-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/.idea/playlist.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../projects/playlist/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/arrays.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projects/random-num/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects/random-num/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projects/shop-item/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects/shop-item/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projects/shop-item/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects/shop-item/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projects/shop-item/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects/shop-item/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../projects/shop-item/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects/shop-item/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/quiz.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="412">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -56,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
+            <state relative-caret-position="374">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -79,19 +61,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/arrays.js" />
         <option value="$PROJECT_DIR$/js/indexOF.js" />
         <option value="$PROJECT_DIR$/js/search-list.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/quiz.js" />
+        <option value="$PROJECT_DIR$/js/arrays.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,17 +136,18 @@
       <workItem from="1596008330316" duration="2782000" />
       <workItem from="1596253785515" duration="2343000" />
       <workItem from="1596525770143" duration="2850000" />
+      <workItem from="1596858084603" duration="3474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11842000" />
+    <option name="totallyTimeSpent" value="15316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12095175" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24596775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -188,20 +171,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/search-list" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/arrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/indexOF.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -216,17 +185,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/quiz.js">
+    <entry file="file://$PROJECT_DIR$/js/arrays.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
+        <state relative-caret-position="901">
+          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
