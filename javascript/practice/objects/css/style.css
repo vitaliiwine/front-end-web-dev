@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Oleo Script', cursive;
+    letter-spacing: .1em;
+    background-image: linear-gradient(15deg, #97dff4 0%, #38a9cb);
+}
+
+main {
+    width: 50%;
+    max-width: 1080px;
+    padding: 40px 0;
+    margin: 0 auto;
+}

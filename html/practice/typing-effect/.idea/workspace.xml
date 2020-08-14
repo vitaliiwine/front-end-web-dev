@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="473d19cd-2427-4fcc-9db6-7a907bda61a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/layouts.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/img/restaurant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reg/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../javascript/practice/arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javascript/practice/arrays/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../javascript/practice/arrays/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javascript/practice/arrays/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../javascript/practice/arrays/js/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javascript/practice/arrays/js/arrays.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../javascript/practice/arrays/js/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javascript/practice/arrays/js/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../javascript/practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../javascript/practice/objects/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../javascript/practice/objects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../javascript/practice/objects/js/object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="221">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -77,7 +59,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="952" />
+    <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -86,24 +68,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="typing-effect" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typing-effect" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../javascript/practice" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -131,24 +101,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597375212138</updated>
-      <workItem from="1597375214696" duration="1784000" />
+      <workItem from="1597375214696" duration="2446000" />
+      <workItem from="1597390719864" duration="1043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1784000" />
+    <option name="totallyTimeSpent" value="3489000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -156,6 +123,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -174,8 +145,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
