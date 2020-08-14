@@ -53,5 +53,16 @@ for (let i = 0; i < scores.length; i++) {
 
 console.log(total / scores.length);
 
+// Defining length
+
+const morningTasks = ['study', 'exercise', 'write'];
+const eveningTasks = ['bake', 'edit article', 'chill'];
+
+const allTasks = [...morningTasks, ...eveningTasks];
+allTasks.pop();
+
+console.log(allTasks.length);
+
+
 
 

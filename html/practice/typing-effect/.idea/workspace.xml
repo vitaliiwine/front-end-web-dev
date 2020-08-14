@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d411e7c9-bb69-44e9-b267-56010d9b4285" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/layouts.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/restaurant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/reg/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="473d19cd-2427-4fcc-9db6-7a907bda61a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/layouts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../css/practice/layouts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/img/restaurant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/node_modules/normalize.css/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/layouts/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../javascript/practice/arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javascript/practice/arrays/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../javascript/practice/arrays/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javascript/practice/arrays/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../javascript/practice/arrays/js/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javascript/practice/arrays/js/arrays.js" afterDir="false" />
@@ -33,7 +36,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,16 +71,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -66,24 +87,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="layouts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="typing-effect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typing-effect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -106,33 +126,29 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d411e7c9-bb69-44e9-b267-56010d9b4285" name="Default Changelist" comment="" />
-      <created>1589782225352</created>
+      <changelist id="473d19cd-2427-4fcc-9db6-7a907bda61a4" name="Default Changelist" comment="" />
+      <created>1597375212138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589782225352</updated>
-      <workItem from="1589782228025" duration="2082000" />
-      <workItem from="1589801171644" duration="3766000" />
-      <workItem from="1589888324766" duration="1080000" />
-      <workItem from="1589957670217" duration="6611000" />
-      <workItem from="1590053747226" duration="5376000" />
-      <workItem from="1590130216462" duration="3431000" />
-      <workItem from="1590218789389" duration="5331000" />
-      <workItem from="1590474019778" duration="4299000" />
-      <workItem from="1590559599751" duration="94000" />
-      <workItem from="1597375073790" duration="133000" />
+      <updated>1597375212138</updated>
+      <workItem from="1597375214696" duration="1784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32203000" />
+    <option name="totallyTimeSpent" value="1784000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122934565" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -140,10 +156,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295129" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -155,22 +167,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/normalize.css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="363" selection-start-line="357" selection-end-line="363" />
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>

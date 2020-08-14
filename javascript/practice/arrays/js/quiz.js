@@ -1,3 +1,7 @@
+// Simple Quiz
+
+// Creating "question/answer" array
+
 const quiz = [
     ["What's the form of the Earth?", "globe"],
     ["What's the hottest month in Israel?", "august"],
@@ -9,6 +13,8 @@ const quiz = [
 let correct = [];
 let incorrect = [];
 
+// Sorting correct/incorrect answers
+
 for (let i = 0; i < quiz.length; i++) {
     let question = quiz[i][0];
     let answer = quiz[i][1];
@@ -19,12 +25,16 @@ for (let i = 0; i < quiz.length; i++) {
     } else incorrect.push(question);
 }
 
+// Creating list items
+
 function createList(arr) {
     let items = '';
     for (let i = 0; i < arr.length; i++) {
         items += `<li>${arr[i]}</li>`;
     } return items;
 }
+
+// Building HTML template
 
 let html = `
     <h1>Hey, you've got these ${correct.length} question(s) right, good job!</h1>
@@ -34,5 +44,6 @@ let html = `
     <ol>${createList(incorrect)}</ol>
 `;
 
+// Output
 
 document.querySelector('main').innerHTML = html;
