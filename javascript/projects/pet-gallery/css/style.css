@@ -1,0 +1,23 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f8ff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2em 3em;
+    font-family: serif;
+    color: #8d9aa5;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 0 46px;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    box-shadow: -5px 4px 63px -17px rgba(13,12,13,1);
+}
+

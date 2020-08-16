@@ -3,7 +3,7 @@ const main = async () => {
         setTimeout(() => {
             resolve('Hello after 5 sec')
         }, 5000)
-    })
+    });
 
     console.log(res)
 };

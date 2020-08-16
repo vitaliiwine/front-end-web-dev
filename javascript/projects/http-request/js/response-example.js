@@ -4,6 +4,11 @@ const main = async () => {
     try {
         const response = await axios.get(url);
         console.log(response.data);
+
+        for (let prop in response.data) {
+            document.querySelector('div').innerHTML = `${prop}: ${response.data[name]}`;
+        }
+
     }
 
     catch (error) {
