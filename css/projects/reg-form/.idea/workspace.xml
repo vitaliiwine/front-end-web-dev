@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26265f7-715f-485c-83ee-5b02780cd287" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../photo-gallery/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo-gallery/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo-gallery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../contact-form/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../contact-form/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../contact-form/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../contact-form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo-gallery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../photo-gallery/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="782">
-              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -67,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="951" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
@@ -139,7 +141,7 @@
     <option name="totallyTimeSpent" value="14737000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="1" />
+    <frame x="761" y="0" width="782" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26442954" />
@@ -168,7 +170,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
         </state>
       </provider>
     </entry>
