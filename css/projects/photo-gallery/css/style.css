@@ -1,0 +1,81 @@
+/* Base Styles -------------------- */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    color: #384047;
+    padding: 10px 0 80px;
+}
+
+div {
+    max-width: 710px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+ul {
+    width: max-content;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px 10px 14px;
+}
+
+a {
+    color: #4183c4;
+}
+
+/* Substring Matching Attribute Selectors */
+
+a[href^='http:'] {
+    color: #52bab3;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    padding-left: 25px;
+}
+
+a[href$='.pdf'] {
+    background-image: url('../img/icn-pdf.svg');
+}
+
+a[href$='.jpg'] {
+    background-image: url('../img/icn-picture.svg');
+}
+
+a[href$='.zip'] {
+    background-image: url('../img/icn-zip.svg');
+}
+
+img[src*='thumb'] {
+    margin: 2px;
+    border: solid 2px floralwhite;
+    flex-grow: 1;
+    box-shadow: 0 0 31px 1px rgba(0,0,0,0.69);
+}
+
+/* Classes */
+
+.ph-container {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ph-container img {
+}
+
+
+
+/* ^ tells the browser to match a piece of code that’s at the beginning of an attribute's value */
+/* $ matches a piece at the end of an attribute's value. */
+/* * matches any 'containing' part of an attribute's value */
