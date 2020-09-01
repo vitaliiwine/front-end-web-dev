@@ -5,7 +5,16 @@ textarea:focus {
     border-color: #52bab3;
 }
 
+input:hover,
+textarea:hover {
+    cursor: pointer;
+}
+
 input:disabled {
     background: #ddd;
+}
+
+input[type='checkbox']:checked {
+    font-weight: bold;
 }
 

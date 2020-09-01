@@ -1,0 +1,9 @@
+:root {
+    background: #e3effb;
+}
+
+:target {
+    background: slategray;
+    color: white;
+    padding: 15px 35px;
+}
