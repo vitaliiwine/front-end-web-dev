@@ -60,7 +60,7 @@ img[src*='thumb'] {
     margin: 2px;
     border: solid 2px floralwhite;
     flex-grow: 1;
-    box-shadow: 0 0 31px 1px rgba(0,0,0,0.69);
+    box-shadow: 0 0 15px 1px rgba(0,0,0,0.39);
 }
 
 /* Classes */

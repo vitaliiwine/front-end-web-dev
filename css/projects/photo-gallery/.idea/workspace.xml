@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51a559a-fe06-4e2e-a521-c91602678992" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reg-form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reg-form/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sign-up-form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sign-up-form/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sign-up-form/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../sign-up-form/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sign-up-form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sign-up-form/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -27,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+            <state relative-caret-position="585">
+              <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -54,8 +58,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -76,6 +80,11 @@
             <path>
               <item name="photo-gallery" type="b2602c69:ProjectViewProjectNode" />
               <item name="photo-gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="photo-gallery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="photo-gallery" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -87,7 +96,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reg-form" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -117,17 +126,18 @@
       <updated>1597687689072</updated>
       <workItem from="1597687690424" duration="1536000" />
       <workItem from="1597750661947" duration="5781000" />
+      <workItem from="1599572566991" duration="1970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7317000" />
+    <option name="totallyTimeSpent" value="9287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23655914" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23624161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -153,14 +163,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+        <state relative-caret-position="585">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
         </state>
       </provider>
     </entry>
