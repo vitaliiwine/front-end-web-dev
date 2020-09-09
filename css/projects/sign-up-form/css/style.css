@@ -8,7 +8,10 @@
     background: slategray;
     color: white;
     padding: 15px 35px;
-    box-shadow: 0 0 15px 2px rgb(100, 123, 136);
+    box-shadow: 0 3px 0 rgba(174, 174, 174, 0.5);
+    /*border: 3px solid rgba(208, 208, 208, 0.5);*/
+    border-radius: .35em;
+
 }
 
 /* Animation ------------------------ */
@@ -20,7 +23,7 @@
 .monster {
     width: 190px;
     height: 240px;
-    margin: 40px auto;
+    margin: auto;
     background: url("https://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/blog/monster.png")
     left center;
 }
@@ -47,5 +50,7 @@ a {
 a:hover {
     background: firebrick;
 }
+
+
 
 

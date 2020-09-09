@@ -36,7 +36,7 @@ nav a:hover {
 /* Main ------------------------ */
 
 #container {
-    max-width: 1100px;
+    /*max-width: 1100px;*/
     margin: auto;
 }
 
@@ -50,6 +50,10 @@ nav a:hover {
     padding: 15px;
 }
 
+.col:not(:first-child) {
+    margin-left: 15px;
+}
+
 .btn {
     font-size: 0.875em;
     font-weight: 400;
@@ -60,7 +64,7 @@ nav a:hover {
     width: 100%;
     margin: 1em 0;
     text-transform: uppercase;
-    border-bottom: 3px solid rgba(0,0,0,0.05);
+    border-bottom: 3px solid rgba(0, 0,0, 0.05);
     background-color: #52bab3;
 }
 
@@ -82,6 +86,10 @@ input {
     border-radius: .3em;
 }
 
+input:not([type="submit"]) {
+    box-shadow: inset 0 2px 0 rgba(0,0,0, 0.3);
+}
+
 input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -99,4 +107,52 @@ input[type="password"] {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Media Queries ------------------------ */
+
+@media (max-width: 1115px) {
+
+    nav {
+       display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a,
+    h2 {
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #col-a,
+    #col-b {
+        width: 32.421%;
+        flex-grow: 2;
+        margin-bottom: 40px;
+
+    }
+
+    .col:last-child {
+        border: 2px solid tomato;
+        width: 50.421%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .row {
+
+    }
 }
