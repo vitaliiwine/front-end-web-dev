@@ -111,7 +111,7 @@ input[type="password"] {
 
 /* Media Queries ------------------------ */
 
-@media (max-width: 1115px) {
+@media (max-width: 1130px) {
 
     nav {
        display: flex;
@@ -147,12 +147,5 @@ input[type="password"] {
         border: 2px solid tomato;
         width: 50.421%;
         margin-bottom: 40px;
-    }
-}
-
-@media (max-width: 680px) {
-
-    .row {
-
     }
 }
