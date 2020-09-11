@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174f2d27-d213-4354-9686-e8ef4c79a3d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../functions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../functions/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../functions/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../functions/js/expressions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-base/js/conditionals2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-base/js/days.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-base/js/switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-base/js/ternary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/practice/pseudo-elements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../css/practice/pseudo-elements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../css/projects/sign-up-form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../css/projects/sign-up-form/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js-base/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js-base/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js-base/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js-base/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js-base/js/conditions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js-base/js/conditionals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/randomise.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/randomise_2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/randomise_1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,7 +76,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,9 +91,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,14 +101,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="random-num" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random-num" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="random-num" type="b2602c69:ProjectViewProjectNode" />
+              <item name="random-num" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../functions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -136,16 +154,18 @@
       <workItem from="1589179279020" duration="7239000" />
       <workItem from="1589268665979" duration="3882000" />
       <workItem from="1589388047249" duration="92000" />
+      <workItem from="1599840022728" duration="846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11213000" />
+    <option name="totallyTimeSpent" value="12059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="0" />
+    <frame x="760" y="0" width="783" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5073826" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5067024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -169,17 +189,17 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>

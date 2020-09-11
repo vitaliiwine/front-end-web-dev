@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbaf96bb-2aaf-4234-be60-950de90d70cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/.idea/pseudo-elements.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/layouts/cream&amp;cream/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/layouts/cream&amp;cream/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/layouts/cream&amp;cream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/layouts/cream&amp;cream/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../photo-gallery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../photo-gallery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practice/pseudo-elements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/pseudo-elements/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -66,10 +56,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -81,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../photo-gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../javascript/practice/js-base" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -114,15 +104,15 @@
       <workItem from="1599569568978" duration="5206000" />
       <workItem from="1599635481890" duration="15641000" />
       <workItem from="1599727909304" duration="3458000" />
+      <workItem from="1599828360862" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28911000" />
+    <option name="totallyTimeSpent" value="28944000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="1" />
-    <editor active="true" />
+    <frame x="761" y="0" width="782" height="831" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -147,13 +137,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -165,6 +148,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
         </state>
       </provider>
     </entry>
