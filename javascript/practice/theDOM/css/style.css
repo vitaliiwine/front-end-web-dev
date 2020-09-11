@@ -1,0 +1,19 @@
+body {
+    color: #484848;
+    font-family: 'Lato', sans-serif;
+    padding: .45em 2.65em 3em;
+    line-height: 1.5;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h1 + p {
+    font-size: 1.08em;
+    color: #637a91;
+    margin-top: .5em;
+    margin-bottom: 2.65em;
+    padding-bottom: 1.325em;
+    border-bottom: 1px dotted;
+}
