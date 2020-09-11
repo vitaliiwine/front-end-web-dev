@@ -1,0 +1,81 @@
+/* Main ------------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.1;
+    color: #4f4f4f;
+    padding: 10px 0 80px;
+}
+
+div {
+    width: 50%;
+    margin: auto;
+}
+
+p::first-letter {
+    float: left;
+    line-height: 1;
+    font-size: 50px;
+    color: white;
+    background: firebrick;
+    padding: 5px 15px;
+    margin: 10px 10px 0 0 ;
+    border-radius: 5px;
+}
+
+.loads {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style: none;
+}
+
+/* Attribute Selectors ------------------------ */
+
+a[href^='http:'] {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+/* Pseudo Elements ------------------------ */
+
+.jpg::before {
+    content: url(../img/icn-picture.svg);
+    margin-right: 3px;
+}
+
+.zip::before {
+    content: url(../img/icn-zip.svg);
+    margin-right: 3px;
+}
+
+.jpg::after,
+.zip::after {
+    content: attr(title);
+    display: inline-block;
+    margin-left: 5px;
+    color: initial;
+}
+
+h1::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: lightcoral;
+    margin: 0 15px;
+}
+
+
+
+
+
