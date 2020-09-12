@@ -5,7 +5,8 @@ body {
     line-height: 1.5;
 }
 
-h1 {
+h1,
+h1:hover {
     margin-bottom: 0;
 }
 
@@ -17,3 +18,13 @@ h1 + p {
     padding-bottom: 1.325em;
     border-bottom: 1px dotted;
 }
+
+button {
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid rgba(174, 174, 174, 0.61);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
