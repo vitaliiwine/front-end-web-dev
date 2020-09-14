@@ -48,7 +48,7 @@ const removeItemButton = document.getElementById('removeItemButton');
 
 removeItemButton.addEventListener('click', () => {
    let ul = document.getElementsByTagName('ul')[0];
-   let li = document.querySelector('li:last-child');
+   let li = document.querySelector('li:first-child');
    ul.removeChild(li);
 });
 
