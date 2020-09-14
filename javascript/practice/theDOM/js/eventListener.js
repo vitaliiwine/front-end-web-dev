@@ -42,6 +42,17 @@ addItemButton.addEventListener('click', () => {
     addItemInput.value = '';
 });
 
+// Remove List Items
+
+const removeItemButton = document.getElementById('removeItemButton');
+
+removeItemButton.addEventListener('click', () => {
+   let ul = document.getElementsByTagName('ul')[0];
+   let li = document.querySelector('li:last-child');
+   ul.removeChild(li);
+});
+
+
 // Change list items color
 
 const myList = document.getElementsByTagName('li');
