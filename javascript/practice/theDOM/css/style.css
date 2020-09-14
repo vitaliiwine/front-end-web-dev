@@ -20,6 +20,7 @@ h1 + p {
 }
 
 button {
+    width: 180px;
     color: white;
     background-color: cornflowerblue;
     padding: 10px;
@@ -28,3 +29,32 @@ button {
     cursor: pointer;
 }
 
+button:focus {
+    border: 2px solid #626262;
+    box-shadow: 2px 0 15px rgba(50, 50, 50, 0.6);
+}
+
+#toggleButton {
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid rgba(174, 174, 174, 0.61);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+ul li {
+    float: initial;
+    list-style-type: none;
+}
+
+ul input {
+    float: left;
+    margin: 0 10px 0 0;
+
+}
