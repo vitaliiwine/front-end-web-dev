@@ -19,6 +19,14 @@ h1 + p {
     border-bottom: 1px dotted;
 }
 
+h4 {
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+}
+
 button {
     width: 180px;
     color: white;
@@ -48,13 +56,3 @@ input {
     margin-bottom: 10px;
 }
 
-ul li {
-    float: initial;
-    list-style-type: none;
-}
-
-ul input {
-    float: left;
-    margin: 0 10px 0 0;
-
-}

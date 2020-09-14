@@ -1,4 +1,4 @@
-//Change heading color
+// Change heading color
 
 // Selecting an HTML element
 
@@ -10,6 +10,7 @@ const headingColor = document.getElementById('headingColor');
 
 headingButton.addEventListener('click', () => {
     myHeading.style.color = headingColor.value;
+    headingColor.value = '';
 });
 
 // Hide Cart List
@@ -34,11 +35,14 @@ const addItemInput = document.getElementById('addItemInput');
 const addItemButton = document.getElementById('addItemButton');
 
 addItemButton.addEventListener('click', () => {
+    let ul = document.getElementsByTagName('li')[0];
     let li = document.createElement('li');
     li.textContent = addItemInput.value;
+    ul.appendChild(li);
+    addItemInput.value = '';
 });
 
-//Change list items color
+// Change list items color
 
 const myList = document.getElementsByTagName('li');
 const colorListButton = document.getElementById('colorListButton');
@@ -46,11 +50,12 @@ const listColor = document.getElementById('listColor');
 
 colorListButton.addEventListener('click', () => {
     for (let i = 0; i < myList.length; i++) {
-        myList[i].style.color = listColor.value
+        myList[i].style.color = listColor.value;
     }
+    listColor.value = '';
 });
 
-//Change list items heading
+// Change list items heading
 
 const listHeading = document.querySelector('h4');
 const listHeadingOption = document.querySelector('input#listHeadingOption');
