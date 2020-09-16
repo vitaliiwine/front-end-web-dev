@@ -1,3 +1,26 @@
+// Change list squares to checkboxes
+
+const itemList = document.getElementsByClassName('itemBuy');
+for (let i = 0; i < itemList.length; i++) {
+    itemList[i].type = 'checkbox';
+}
+
+// Asking a name
+
+const name = prompt('Welcome, what\'s your name?');
+
+// Asking to wait
+
+const greeting = () => alert(`Hello, ${name}, can you wait 5 secs, please?`);
+
+greeting();
+
+// Setting timeout (call back functions)
+
+window.setTimeout(() => {
+    alert('Good, u have patience!');
+}, 5000);
+
 // Change heading color
 
 // Selecting an HTML element
@@ -46,21 +69,14 @@ addItemButton.addEventListener('click', () => {
 const removeItemButton = document.getElementById('removeItemButton');
 
 removeItemButton.addEventListener('click', () => {
-   let ul = document.getElementsByTagName('ul')[0];
-   let li = document.querySelector('li:first-child');
-   ul.removeChild(li);
+    let ul = document.getElementsByTagName('ul')[0];
+    let li = document.querySelector('li:first-child');
+    ul.removeChild(li);
 });
-
-// Change list squares to checkboxes
-
-const itemList = document.getElementsByClassName('itemBuy');
-for (let i = 0; i < itemList.length; i++) {
-    itemList[i].type = 'checkbox';
-}
 
 // Change list items color
 
-const myList = document.getElementsByTagName('li');
+let myList = document.getElementsByTagName('li');
 const colorListButton = document.getElementById('colorListButton');
 const listColor = document.getElementById('listColor');
 
@@ -70,6 +86,18 @@ colorListButton.addEventListener('click', () => {
     }
     listColor.value = '';
 });
+
+// Uppercase/ lowercase
+
+for (let i = 0; i < myList.length; i++) {
+    myList[i].addEventListener('mouseover', () => {
+        myList[i].textContent = myList[i].textContent.toUpperCase();
+    });
+    myList[i].addEventListener('mouseout', () => {
+        myList[i].textContent = myList[i].textContent.toLowerCase();
+    });
+}
+
 
 // Change list items heading
 
