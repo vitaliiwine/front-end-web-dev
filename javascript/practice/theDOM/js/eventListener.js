@@ -1,10 +1,3 @@
-// Change list squares to checkboxes
-
-const itemList = document.getElementsByClassName('itemBuy');
-for (let i = 0; i < itemList.length; i++) {
-    itemList[i].type = 'checkbox';
-}
-
 // Asking a name
 
 const name = prompt('Welcome, what\'s your name?');
@@ -23,13 +16,9 @@ window.setTimeout(() => {
 
 // Change heading color
 
-// Selecting an HTML element
-
 const myHeading = document.getElementById('myHeading');
 const headingButton = document.getElementById('headingButton');
 const headingColor = document.getElementById('headingColor');
-
-// Adding event listener
 
 headingButton.addEventListener('click', () => {
     myHeading.style.color = headingColor.value;
@@ -50,6 +39,13 @@ toggleButton.addEventListener('click', () => {
         listDiv.style.display = 'none';
     }
 });
+
+// Change list squares to checkboxes
+
+const itemList = document.getElementsByClassName('itemBuy');
+for (let i = 0; i < itemList.length; i++) {
+    itemList[i].type = 'checkbox';
+}
 
 // Add List Items
 
@@ -89,15 +85,16 @@ colorListButton.addEventListener('click', () => {
 
 // Uppercase/ lowercase
 
-for (let i = 0; i < myList.length; i++) {
-    myList[i].addEventListener('mouseover', () => {
-        myList[i].textContent = myList[i].textContent.toUpperCase();
-    });
-    myList[i].addEventListener('mouseout', () => {
-        myList[i].textContent = myList[i].textContent.toLowerCase();
-    });
-}
-
+listDiv.addEventListener('mouseover', (event) => {
+    if (event.target.tagName === 'LI') {
+        event.target.textContent = event.target.textContent.toUpperCase();
+    }
+});
+listDiv.addEventListener('mouseout', (event) => {
+    if (event.target.tagName === 'LI') {
+        event.target.textContent = event.target.textContent.toLowerCase();
+    }
+});
 
 // Change list items heading
 
