@@ -17,7 +17,6 @@ headingButton.addEventListener('click', () => {
 
 const toggleButton = document.getElementById('toggleButton');
 const listDiv = document.querySelector('.list');
-console.log('what?');
 
 toggleButton.addEventListener('click', () => {
     if (listDiv.style.display == 'none') {
@@ -52,6 +51,12 @@ removeItemButton.addEventListener('click', () => {
    ul.removeChild(li);
 });
 
+// Change list squares to checkboxes
+
+const itemList = document.getElementsByClassName('itemBuy');
+for (let i = 0; i < itemList.length; i++) {
+    itemList[i].type = 'checkbox';
+}
 
 // Change list items color
 
