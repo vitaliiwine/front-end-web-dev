@@ -1,0 +1,75 @@
+body {
+    color: #484848;
+    font-family: 'Lato', sans-serif;
+    padding: .45em 2.65em 3em;
+    line-height: 1.5;
+}
+
+h1,
+h1:hover {
+    margin-bottom: 0;
+}
+
+h1 + p {
+    font-size: 1.08em;
+    color: #637a91;
+    margin-top: .5em;
+    margin-bottom: 2.65em;
+    padding-bottom: 1.325em;
+    border-bottom: 1px dotted;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: 0;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: 200px;
+}
+
+li button {
+    width: 200px;
+    margin-left: 80%;
+}
+
+button {
+    width: 180px;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid rgba(174, 174, 174, 0.61);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:focus {
+    border: 2px solid #626262;
+    box-shadow: 2px 0 15px rgba(50, 50, 50, 0.6);
+}
+
+#toggleButton {
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid rgba(174, 174, 174, 0.61);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+

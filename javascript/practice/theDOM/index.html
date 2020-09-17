@@ -2,40 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700';">
+    <title>The DOM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1 id="myHeading">Javascript and the Dom</h1>
-<p>Making a web page interactive</p>
-<input id="headingColor" type="text">
-<button id="headingButton" type="submit">Change Heading Color</button>
+<h1 id="heading">JavaScript and the DOM</h1>
+<p id="sub-heading">Making a web page interactive</p>
 
-<button id="toggleButton">Hide Cart List</button>
+<input id="heading-color-value" type="text">
+<button id="change-head-color-b">Change heading color</button>
+<button id="hide-list-b">Hide list</button>
 
 <div class="list">
-    <h4>Items to buy:</h4>
+    <p class="description">Items to buy:</p>
+    <input type="text" class="description">
+    <button class="description">Change list description</button>
+
     <ul>
-        <li><input class="itemBuy">Grapes</li>
-        <li><input class="itemBuy">Lemons</li>
-        <li><input class="itemBuy">Apples</li>
-        <li><input class="itemBuy">Oranges</li>
+        <li>Grapes <button>Remove</button></li>
+        <li>Lemons <button>Remove</button></li>
+        <li>Oranges <button>Remove</button></li>
+        <li>Pineapples <button>Remove</button></li>
     </ul>
+
 </div>
 
-<input id="addItemInput" type="text">
-<button id="addItemButton" type="submit">Add Item</button>
-<button id="removeItemButton" type="submit">Remove Item</button>
-<br>
-<input id="listColor" type="text">
-<button id="colorListButton" type="submit">Change List Items Color</button>
-<br>
-<input id="listHeadingOption" type="text">
-<button id="listHeadingButton" type="submit">Change List Heading</button>
+<input type="text" id="add-item-input">
+<button id="add-item-b">Add item</button>
 
-<script src="js/eventListener.js"></script>
-<!--<script src="js/anonymousFunction.js"></script>-->
+<script src="js/eventListeners.js"></script>
 </body>
 </html>

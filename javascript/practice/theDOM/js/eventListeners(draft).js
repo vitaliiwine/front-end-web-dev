@@ -1,18 +1,18 @@
 // Asking a name
 
-const name = prompt('Welcome, what\'s your name?');
+// const name = prompt('Welcome, what\'s your name?');
 
 // Asking to wait
 
-const greeting = () => alert(`Hello, ${name}, can you wait 5 secs, please?`);
-
-greeting();
+// const greeting = () => alert(`Hello, ${name}, can you wait 5 secs, please?`);
+//
+// greeting();
+// window.setTimeout(() => {
+//     alert('Good, u have patience!');
+// }, 5000);
 
 // Setting timeout (call back functions)
 
-window.setTimeout(() => {
-    alert('Good, u have patience!');
-}, 5000);
 
 // Change heading color
 
@@ -31,7 +31,7 @@ const toggleButton = document.getElementById('toggleButton');
 const listDiv = document.querySelector('.list');
 
 toggleButton.addEventListener('click', () => {
-    if (listDiv.style.display == 'none') {
+    if (listDiv.style.display === 'none') {
         toggleButton.textContent = 'Hide List Items';
         listDiv.style.display = 'block';
     } else {
@@ -62,13 +62,13 @@ addItemButton.addEventListener('click', () => {
 
 // Remove List Items
 
-const removeItemButton = document.getElementById('removeItemButton');
-
-removeItemButton.addEventListener('click', () => {
-    let ul = document.getElementsByTagName('ul')[0];
-    let li = document.querySelector('li:first-child');
-    ul.removeChild(li);
-});
+// const removeItemButton = document.getElementById('removeItemButton');
+//
+// removeItemButton.addEventListener('click', () => {
+//     let ul = document.getElementsByTagName('ul')[0];
+//     let li = document.querySelector('li:first-child');
+//     ul.removeChild(li);
+// });
 
 // Change list items color
 
@@ -83,18 +83,16 @@ colorListButton.addEventListener('click', () => {
     listColor.value = '';
 });
 
-// Uppercase/ lowercase
+// Removing list items
 
-listDiv.addEventListener('mouseover', (event) => {
+listDiv.addEventListener('click', (event) => {
     if (event.target.tagName === 'LI') {
-        event.target.textContent = event.target.textContent.toUpperCase();
+        let li = event.target;
+        let ul = li.parentNode;
+        ul.removeChild(li);
     }
 });
-listDiv.addEventListener('mouseout', (event) => {
-    if (event.target.tagName === 'LI') {
-        event.target.textContent = event.target.textContent.toLowerCase();
-    }
-});
+
 
 // Change list items heading
 

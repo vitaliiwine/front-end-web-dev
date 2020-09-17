@@ -1,59 +1,72 @@
+/* Base Styles ------------------------ */
+
 body {
-    color: #484848;
-    font-family: 'Lato', sans-serif;
-    padding: .45em 2.65em 3em;
-    line-height: 1.5;
-}
-
-h1,
-h1:hover {
-    margin-bottom: 0;
-}
-
-h1 + p {
-    font-size: 1.08em;
-    color: #637a91;
-    margin-top: .5em;
-    margin-bottom: 2.65em;
-    padding-bottom: 1.325em;
-    border-bottom: 1px dotted;
-}
-
-h4 {
-    margin-bottom: 0;
-}
-
-ul {
-    margin-top: 0;
-    list-style-type: none;
-}
-
-button {
-    width: 180px;
-    color: white;
-    background-color: cornflowerblue;
-    padding: 10px;
-    border: 2px solid rgba(174, 174, 174, 0.61);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:focus {
-    border: 2px solid #626262;
-    box-shadow: 2px 0 15px rgba(50, 50, 50, 0.6);
-}
-
-#toggleButton {
-    display: block;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px 30px 20px;
+    line-height: 2.5em;
 }
 
 input {
-    padding: 10px;
-    border: 2px solid rgba(174, 174, 174, 0.61);
+    line-height: 1.8em;
+    border: 2px solid;
     border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    box-shadow: 2px 0 10px rgba(50, 50, 50, .8);
+}
+
+input:hover {
     cursor: pointer;
-    margin-bottom: 10px;
+}
+
+button {
+    line-height: 2em;
+    border: 2px solid;
+    border-radius: 5px;
+    color: #f9f9f9;
+    background-color: cornflowerblue;
+    outline: none;
+}
+
+button:focus {
+    border: 2px solid white;
+    box-shadow: 2px 0 10px rgba(50, 50, 50, .8);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+li > button {
+    margin-left: auto;
+}
+
+#sub-heading {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted black;
+}
+
+#hide-list-b {
+    margin-bottom: 30px;
+}
+
+.list {
+    border-top: 2px dotted black;
+}
+
+.description {
+    margin-bottom: 0;
 }
 
