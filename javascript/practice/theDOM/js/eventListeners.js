@@ -8,7 +8,30 @@ const listInput = document.querySelector('input.description');
 const listButton = document.querySelector('button.description');
 const inputAddItem = document.querySelector('#add-item-input');
 const addItemButton = document.querySelector('#add-item-b');
+const lis = ulList.children;
 
+// Attach list buttons
+
+function attachListItemButtons(li) {
+    let up = document.createElement('button');
+    up.className = 'up';
+    up.textContent = 'Up';
+    li.appendChild(up);
+
+    let down = document.createElement('button');
+    down.className = 'down';
+    down.textContent = 'Down';
+    li.appendChild(down);
+
+    let remove = document.createElement('button');
+    remove.className = 'remove';
+    remove.textContent = 'Remove';
+    li.appendChild(remove);
+}
+
+for (let i = 0; i < lis.length; i++) {
+    attachListItemButtons(lis[i]);
+}
 
 // Change heading color
 
@@ -42,11 +65,12 @@ addItemButton.addEventListener('click', () => {
     let ul = document.getElementsByTagName('ul')[0];
     let li = document.createElement('li');
     li.textContent = inputAddItem.value;
+    attachListItemButtons(li);
     ul.appendChild(li);
     inputAddItem.value = '';
 });
 
-// Remove list item
+// Move up / down or remove list item
 
 ulList.addEventListener('click', (event) => {
     if (event.target.tagName === 'BUTTON') {
@@ -59,7 +83,12 @@ ulList.addEventListener('click', (event) => {
             let li = event.target.parentNode;
             let prevLi = li.previousElementSibling;
             let ul = li.parentNode;
+
+            // Removing up button
+
+            let upButton = li.firstElementChild;
             if (prevLi) {
+                li.removeChild(upButton);
                 ul.insertBefore(li, prevLi);
             }
         }
@@ -67,7 +96,14 @@ ulList.addEventListener('click', (event) => {
             let li = event.target.parentNode;
             let nextLi = li.nextElementSibling;
             let ul = li.parentNode;
+
+            // Removing down button
+
+            let upButton = li.firstElementChild;
+            let downButton = upButton.nextElementSibling;
+
             if (nextLi) {
+                li.removeChild(downButton);
                 ul.insertBefore(nextLi, li);
             }
         }

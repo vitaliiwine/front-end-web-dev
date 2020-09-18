@@ -51,6 +51,15 @@ li {
 
 li button:first-child {
     margin-left: auto;
+    background: rgba(0, 170, 0, 0.65);
+}
+
+li button:nth-child(even) {
+    background: rgba(255, 255, 0, 0.57);
+}
+
+li button:last-child {
+    background: rgba(255, 0, 0, 0.6);
 }
 
 #sub-heading {
