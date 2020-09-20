@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background: #f9f4f0;
+    color: forestgreen;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.8em;
+}
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#logo, button {
+    background: forestgreen;
+    color: #c0c0c0;
+}
+
+#logo {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.66em;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#logo-img {
+    width: 44px;
+    position: relative;
+    bottom: 6px;
+}
+
+.nav-flex {
+    display: flex;
+    width: 100%;
+    border: 1px solid forestgreen;
+    padding: 0;
+}
+
+.nav-flex li {
+    width: 100%;
+    list-style-type: none;
+}
+
+.nav-flex li a {
+    color: forestgreen;
+    background: #e0e0e0;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    border-left: 1px solid forestgreen;
+    text-decoration: none;
+}
+
+.nav-flex li:first-child a {
+    border-left: none;
+}
+
+.nav-flex li a:link, .nav-flex li a:visited {
+    background: forestgreen;
+    color: #e0e0e0;
+}
+
+#summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+
+
+
