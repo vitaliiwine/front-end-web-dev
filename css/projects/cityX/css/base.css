@@ -1,4 +1,4 @@
-/* Base Styles ----------------------- */
+/* Base Styles -------------------------- */
 
 * {
     box-sizing: border-box;
@@ -38,7 +38,7 @@ img {
     max-width: 100%;
 }
 
-/* Navigation Styles ----------------------- */
+/* Navigation Styles ------------------------ */
 
 .name {
     font-size: 1.2em;
@@ -63,7 +63,7 @@ img {
     color: #d7e330;
 }
 
-/* Container Styles ----------------------- */
+/* Container Styles ------------------------ */
 
 .main-header {
     padding-top: .5em;
@@ -98,7 +98,7 @@ img {
     margin-top: 30px;
 }
 
-/* Page Elements ----------------------- */
+/* Page Elements ------------------------- */
 
 .logo {
     width: 190px;
@@ -112,7 +112,7 @@ img {
     border-radius: 5px;
 }
 
-/* Media Queries ----------------------- */
+/* Media Queries ------------------------ */
 
 @media (min-width: 769px) {
     .main-header,
