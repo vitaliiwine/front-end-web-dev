@@ -1,3 +1,5 @@
+/* Base Styles --------------------- */
+
 * {
     box-sizing: border-box;
 }
@@ -76,5 +78,65 @@ body {
     font-weight: 300;
 }
 
+#summary i {
+    margin-right: 12px;
+}
 
+#summary p:last-child {
+    font-size: 1.333rem;
+    margin-top: 5px;
+}
 
+/* Form Styles --------------------- */
+
+legend {
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Nunito', sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: 3px solid #09f;
+}
+
+.hint {
+    font-weight: 300;
+    color: #666;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    max-width: 430px;
+    padding: 12px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin: 1.5rem auto 2.5rem;
+    display: block;
+    cursor: pointer;
+}
+
+.error-input {
+    border: 3px solid #d00;
+}
+
+.error-text {
+    color: #d00;
+}
