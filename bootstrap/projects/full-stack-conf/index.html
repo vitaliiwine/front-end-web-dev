@@ -9,26 +9,70 @@
 </head>
 <body>
 
+<!-- navigation -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand text-right" href="#">Full Stack Conf</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+ <!--< /nav > -->
+
+<div class="container text-center">
+    <!-- intro -->
+    <h1 class="display-1 mt-5">Full Stack Conf</h1>
+    <p class="lead pb-3">Coming Soon, a One-day Conference About All Things Javascript!</p>
+
+    <div class="col-lg-6 mx-auto">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control border border-dark" placeholder="Enter your email to get the info"
+                   aria-label="Enter your email to get the info"
+                   aria-describedby="basic-addon2">
+            <button class="btn btn-primary btn-outline-dark mx-4" type="button">Sign up</button>
+        </div>
+    </div>
+</div> <!-- /container -->
+
 <div class="container pt-4">
     <!-- about -->
     <div class="row">
-        <div class="col">
-            <h3 class="mb-3">About Full Stack Conf</h3>
-            <img class="img-fluid rounded mb-3" src="img/pdx.jpg" alt="Portland City">
+        <div class="col-lg order-2">
+            <h3 class="mb-3 text-center text-lg-left">About Full Stack Conf</h3>
+            <img class="img-fluid rounded mb-3 d-none d-sm-block" src="img/pdx.jpg" alt="Portland City">
             <p>The beautiful city of Portland, Oregon will be the host city for Full Stack Conf!</p>
             <p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to
                 advance your career as a web developer.</p>
         </div>
-        <div class="col">
-            <h3 class="mb-3">Expert Speakers</h3>
-            <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
+        <div class="col-lg order-1">
+            <h3 class="mb-3 text-center text-lg-left">Expert Speakers</h3>
+            <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your
+                tickets!</p>
             <p>Want to meet the international JavaScript community and share skills with some of the world's top
                 experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.</p>
-            <p>Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to another
+            <p>Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to
+                another
                 intensive day of learning and sharing.</p>
         </div>
-        <div class="col">
-            <h3 class="mb-3">What You'll Learn</h3>
+        <div class="col-lg order-3">
+            <h3 class="mb-3 text-center text-lg-left">What You'll Learn</h3>
             <ul>
                 <li><strong>MongoDB</strong>: NoSQL database</li>
                 <li><strong>Express</strong>: Framework for Node</li>
@@ -50,8 +94,28 @@
     [Schedule section]
     <!-- schedule section-->
 
-</div>  <!-- / container-->
-
+    <!-- sign up form -->
+    <hr>
+    <div class="row py-4 text-muted">
+        <div class="col-lg-5">
+            <p class="text-lg-center"><strong>About Treehouse</strong></p>
+            <p>Treehouse brings affordable technology education to people everywhere to help them achieve their
+                dreams
+                and change the world.</p>
+        </div>
+        <div class="col-lg-5 ml-auto">
+            <p class="text-lg-center"><strong>Stay up-to-date on Full Stack Conf</strong></p>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Email">
+                <span class="input-group-btn">
+			        <button class="btn btn-primary" type="button">Sign up</button>
+			      </span>
+            </div>
+        </div>
+    </div>
+    <hr><!-- /sign up form -->
+</div><!-- /container -->
+</div>  <!-- /container-->
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
