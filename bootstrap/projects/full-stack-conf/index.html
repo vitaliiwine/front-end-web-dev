@@ -9,50 +9,42 @@
 </head>
 <body>
 
-<!-- navigation -->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand text-right" href="#">Full Stack Conf</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
- <!--< /nav > -->
-
-<div class="container text-center">
-    <!-- intro -->
-    <h1 class="display-1 mt-5">Full Stack Conf</h1>
-    <p class="lead pb-3">Coming Soon, a One-day Conference About All Things Javascript!</p>
-
-    <div class="col-lg-6 mx-auto">
-        <div class="input-group mb-3">
-            <input type="text" class="form-control border border-dark" placeholder="Enter your email to get the info"
-                   aria-label="Enter your email to get the info"
-                   aria-describedby="basic-addon2">
-            <button class="btn btn-primary btn-outline-dark mx-4" type="button">Sign up</button>
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+        <a class="navbar-brand order-1 mr-0" href="#home">Full Stack Conf</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#speakers">Speakers</a>
+                <a class="nav-item nav-link" href="#schedule">Schedule</a>
+            </div>
         </div>
     </div>
-</div> <!-- /container -->
+</nav> <!--< /nav bar > -->
+
+<!-- jumbotron -->
+
+<div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+    <div class="container pt-5">
+        <h1 class="display-3">Full Stack Conf</h1>
+        <p class="lead">A One-day Conference About All Things JavaScript.</p>
+        <div class="btn-group mt-4" role="group" aria-label="Call out buttons">
+            <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+            <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+        </div>
+    </div>
+</div>
+
+<!-- /jumbotron -->
 
 <div class="container pt-4">
-    <!-- about -->
+    <!-- about section -->
     <div class="row">
         <div class="col-lg order-2">
             <h3 class="mb-3 text-center text-lg-left">About Full Stack Conf</h3>
@@ -82,10 +74,10 @@
                 <li><strong>Babel</strong>: JavaScript compiler</li>
             </ul>
         </div>
-    </div>  <!-- /about -->
+    </div>  <!-- /about section-->
 
     <!-- speakers section-->
-    <h1 class="display-4 text-center my-4 text-muted">Speakers</h1>
+    <h1 id="speakers" class="display-4 text-center my-4 text-muted">Speakers</h1>
     [Speakers section]
     <!-- /speakers section-->
 
@@ -93,6 +85,10 @@
     <h1 class="display-4 text-center my-4 text-muted">Schedule</h1>
     [Schedule section]
     <!-- schedule section-->
+
+    <!-- call out button -->
+
+    <button type="button" class="btn btn-outline-info btn-large d-block mx-auto my-4">Don't Miss Out, Register Now</button>
 
     <!-- sign up form -->
     <hr>
@@ -112,8 +108,8 @@
 			      </span>
             </div>
         </div>
-    </div>
-    <hr><!-- /sign up form -->
+    </div><!-- /sign up form -->
+    <hr>
 </div><!-- /container -->
 </div>  <!-- /container-->
 
