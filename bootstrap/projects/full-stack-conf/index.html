@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Full Stack Conf</title>
+    <title>Full Stack Conf by Treehouse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,12 +31,12 @@
 <!-- jumbotron -->
 
 <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
-    <div class="container pt-5">
+    <div id="home" class="container pt-5">
         <h1 class="display-3">Full Stack Conf</h1>
         <p class="lead">A One-day Conference About All Things JavaScript.</p>
         <div class="btn-group mt-4" role="group" aria-label="Call out buttons">
-            <button type="button" class="btn btn-primary btn-lg">Register Now</button>
-            <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+            <button type="button" class="btn bg-primary btn-lg btn-outline-light">Register Now</button>
+            <a class="btn bg-light btn-lg btn-outline-primary" href="#speakers">See Speakers</a>
         </div>
     </div>
 </div>
@@ -78,17 +78,79 @@
 
     <!-- speakers section-->
     <h1 id="speakers" class="display-4 text-center my-4 text-muted">Speakers</h1>
-    [Speakers section]
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+                <img class="card-img-top" src="img/vivianne.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Vivianne McVue</h5>
+                    <p class="card-text">Vivianne is a web developer and teacher who is passionate about building
+                        scalable, data-driven web apps, especially ones that address old problems with new tech!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+                <img class="card-img-top" src="img/nodestradamus.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">NodeStradamus</h5>
+                    <p class="card-text">NodeStra" is a software engineer and philosopher trying to leave the world
+                        better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+                <img class="card-img-top" src="img/robbie.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Robbie Redux</h5>
+                    <p class="card-text">Robbie is a JavaScript developer working on large-scale applications. He's also
+                        a teacher who strives to support students in removing barriers to learning code.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+                <img class="card-img-top" src="img/ecma.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Ecma Scriptnstuff</h5>
+                    <p class="card-text">Ecma found her passion for programming and teaching over 15 years ago. She is
+                        excited to introduce you to all of the wonders of JavaScript.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+                <img class="card-img-top" src="img/jay.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Jay Query</h5>
+                    <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery:
+                        The Missing Manual, and web development teacher.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-3">
+                <img class="card-img-top" src="img/json.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Json Babel</h5>
+                    <p class="card-text">All of his professional life, Json has worked with computers online; he is a
+                        polyglot programmer and likes using the right tools for the job.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- /speakers section-->
 
     <!-- schedule section-->
     <h1 class="display-4 text-center my-4 text-muted">Schedule</h1>
     [Schedule section]
-    <!-- schedule section-->
+    <!-- /schedule section-->
 
     <!-- call out button -->
 
-    <button type="button" class="btn btn-outline-info btn-large d-block mx-auto my-4">Don't Miss Out, Register Now</button>
+    <button type="button" class="btn btn-outline-info btn-large d-block mx-auto my-4">Don't Miss Out, Register Now
+    </button>
 
     <!-- sign up form -->
     <hr>
@@ -111,7 +173,35 @@
     </div><!-- /sign up form -->
     <hr>
 </div><!-- /container -->
-</div>  <!-- /container-->
+
+<!-- footer -->
+<div class="container-fluid bg-primary text-white">
+    <div class="container">
+        <div class="row py-3">
+            <div class="col-md-8 col-8">
+                <nav class="nav">
+                    <a class="nav-link text-white" href="#">Community</a>
+                    <a class="nav-link text-white" href="#">Tracks</a>
+                    <!-- split dropdown menu button -->
+                    <div class="btn-group dropup">
+                        <button type="button" class="btn btn-outline-light">Other Confs</button>
+                        <button type="button" class="btn btn-outline-light dropdown-toggle dropdown-toggle-split"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Java Conf</a>
+                            <a class="dropdown-item" href="#">PHP Conf</a>
+                            <a class="dropdown-item" href="#">Python Conf</a>
+                            <a class="dropdown-item" href="#">Swift Conf</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-4 ml-auto my-auto col-4">&raquo; 2020 Full Stack Conf & Treehouse</div>
+        </div>
+    </div>
+</div><!-- /footer -->
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
