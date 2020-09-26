@@ -2,17 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2672dd76-c45f-4116-8d05-0dd66dc5476d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../javascript/self.destruct.message/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../javascript/self.destruct.message/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../javascript/self.destruct.message/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cream&amp;cream/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cream&amp;cream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cream&amp;cream/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../debugging/.idea/debugging.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../debugging/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../debugging/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../debugging/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../debugging/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../debugging/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../debugging/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/reg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/accessible-reg-form.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/images/taco-emoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/images/taco-emoji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/practice/tables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/tables/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/projects/reg-form/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/projects/reg-form/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/projects/reg-form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/projects/reg-form/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +61,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,11 +71,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -70,10 +86,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javascript/self.destruct.message" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cream&amp;cream" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,14 +117,16 @@
       <workItem from="1587894289559" duration="865000" />
       <workItem from="1587895465976" duration="670000" />
       <workItem from="1587969729613" duration="20000" />
+      <workItem from="1601113424949" duration="706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2922000" />
+    <option name="totallyTimeSpent" value="3628000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="761" y="0" width="782" height="831" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19489247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -131,6 +149,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
