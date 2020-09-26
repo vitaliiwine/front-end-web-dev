@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn {
+    border-radius: 5rem;
+    padding: .7rem 1.5rem;
+    background: #75ba01;
+    border: none;
+}
+
+.btn:hover {
+    background: #231f20;
+}
+
+.subheading {
+    font-size: 1.4rem;
+}

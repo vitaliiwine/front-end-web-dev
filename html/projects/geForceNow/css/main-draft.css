@@ -1,0 +1,108 @@
+/* Base  ------------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Tammudu 2', sans-serif;
+    /*line-height: 25px;*/
+    color: #3a3a3a;
+}
+
+p {
+    line-height: 20px;
+}
+
+h1, 
+h2, 
+h3 {
+    padding-top: 10px;
+    color: #346e38;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/* Navi ------------------------- */
+
+.name {
+    margin: 0;
+    padding: 25px 0 7px;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.main-nav {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.main-nav li {
+    text-align: center;
+}
+
+.main-header {
+    background: #346e38;
+}
+
+.main-header a {
+    color: #fff;
+}
+
+/* Main -------------------------- */
+
+
+#home-heading {
+    line-height: 50px;
+    margin-top: 0;
+    padding-top: 60px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+#home-p-subheading {
+    font-size: 22px;
+    margin: 0;
+}
+
+#home-p {
+    margin-top: 20px;
+    padding-bottom: 22px;
+}
+
+#home {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    line-height: 10px;
+}
+
+/* Containers -------------------- */
+
+.container, aside {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    color: white;
+    background-size: cover;
+    background: url("../img/bg.jpg") no-repeat;
+}
+
+.btn {
+    border-radius: 5rem;
+}
+
+
+
+
