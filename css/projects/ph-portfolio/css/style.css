@@ -1,0 +1,67 @@
+@import "import-styles.css";
+
+/* Base ------------------ */
+
+main {
+    text-align: center;
+}
+
+/* Nav -------------------- */
+
+
+h1 {
+    font-size: 42px;
+    color: white;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+section {
+    background-color: darkslategrey;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: darkslategrey;
+    color: #fff;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #fff;
+    padding-top: 45px;
+}
+
+/* Classes ---------------- */
+
+.intro {
+    padding: 0 24%;
+}
+
+.bio {
+    margin-top: 0;
+}
+
+.flex {
+    padding: 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-flex {
+    margin: 20px 5px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, .5);
+}
