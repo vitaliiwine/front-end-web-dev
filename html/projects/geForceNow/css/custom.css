@@ -23,6 +23,25 @@
     outline: none;
 }
 
+#home {
+    padding-top: 15px;
+}
+
+.jumbotron-fluid {
+    background-size: cover;
+    background: url("../img/bg.png") no-repeat center;
+    height: 500px;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0,0,0,0.7);
+}
+
 .subheading {
     font-size: 1.4rem;
 }
