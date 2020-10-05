@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     color: #878787;
     font: 1em/1.5 'Noto Sans JP', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -51,5 +52,40 @@ a:active {
 /* Main Styles  --------------------- */
 
 .main-header {
-    background: url("../img/primary-bg.jpg");
+    background: #ffa949;
 }
+
+.title {
+    color: #fff;
+    font-size: 1.625rem;
+}
+
+.intro {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+    text-align: center;
+}
+
+.main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 10px solid #ffa949;
+}
+
+.t-border {
+    border-top: 2px solid lightgrey;
+}
+
+/* Main Styles  --------------------- */
+
+.primary-content,
+.secondary-content {
+    width: 60%;
+    margin: auto;
+}
+
