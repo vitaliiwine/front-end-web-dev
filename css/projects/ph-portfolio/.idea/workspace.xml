@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21cfb370-ade6-48ab-92f3-b1a72061f8f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../lake-tahoe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lake-tahoe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lake-tahoe/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lake-tahoe/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="21cfb370-ade6-48ab-92f3-b1a72061f8f5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -80,7 +77,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lake-tahoe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -111,15 +108,15 @@
       <workItem from="1601143679031" duration="16040000" />
       <workItem from="1601359477771" duration="712000" />
       <workItem from="1601826958390" duration="892000" />
+      <workItem from="1602007956645" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17644000" />
+    <option name="totallyTimeSpent" value="18256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="752" y="0" width="792" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5080645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
