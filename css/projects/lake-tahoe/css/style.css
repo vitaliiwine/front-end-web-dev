@@ -21,14 +21,15 @@ h2 {
     font-size: 3.3125em; /* 53px/16px */
     font-weight: normal;
     line-height: 1.1;
-    margin-bottom: .5em; /* 26px/53px  /
+    margin-bottom: .5em; /* 26px/53px  */
 }
 
 h3 {
-    /*font-size: 1.25em; !* 20px/16px *!*/
+    font-size: 1.25em; /* 20px/16px */
     color: #48525c;
     line-height: 1.2;
 }
+
 
 /* Pseudo Classes --------------------- */
 
@@ -66,10 +67,22 @@ a:active {
     line-height: 1.6;
 }
 
+.primary-content {
+    padding-bottom: 55px;
+}
+
 .primary-content,
 .main-header,
 .main-footer {
     text-align: center;
+}
+
+.callout {
+    font-size: 1.25em;
+    border-bottom: 3px solid;
+    padding: 0 9px 3px;
+    margin-top: 20px;
+    display: inline-block;
 }
 
 .main-footer {
@@ -81,6 +94,7 @@ a:active {
 .t-border {
     border-top: 2px solid lightgrey;
 }
+
 
 /* Layout Styles  --------------------- */
 

@@ -1,0 +1,14 @@
+.box {
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 600px;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+p {
+    display: block;
+}
