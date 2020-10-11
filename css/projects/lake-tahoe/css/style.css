@@ -55,6 +55,8 @@ a:active {
 
 .main-header {
     background: #ffa949;
+    padding-top: 100px;
+    height: 850px;
 }
 
 .title {
@@ -100,7 +102,7 @@ a:active {
 
 .primary-content,
 .secondary-content {
-    width: 60%;
+    width: 960px;
     margin: auto;
 }
 
@@ -110,5 +112,9 @@ a:active {
     padding: 100px 120px;
     border-top: 10px solid #ffa949;
     margin: 55px 0 55px;
+}
+
+.arrow {
+    width: 50px;
 }
 
