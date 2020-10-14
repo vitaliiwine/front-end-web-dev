@@ -13,6 +13,10 @@ body {
     margin: 0;
 }
 
+header {
+    background: #48525c;
+}
+
 h1,
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -151,7 +155,7 @@ a:active {
 .wildlife {
     color: #fff;
     background: linear-gradient(rgba(0, 0, 0, .4), transparent 100%),
-                #434a52 url('../img/cat.jpg') no-repeat center;
+    #434a52 url('../img/cat.jpg') no-repeat center;
     background-size: cover;
     padding: 100px 120px;
     border-top: 10px solid skyblue;
@@ -242,3 +246,6 @@ a:active {
         padding: 20px 0;
     }
 }
+
+
+
