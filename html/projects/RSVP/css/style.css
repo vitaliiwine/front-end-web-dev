@@ -128,3 +128,44 @@ ul {
         padding: 2em 1em 0.75em;
     }
 }
+
+@media (min-width: 769px) {
+
+    .wrapper {
+        width: 90%;
+    }
+
+    header {
+        height: 280px;
+        padding: 2.5em 1em 1em;
+    }
+
+    h1 {
+        font-size: 5.8em;
+    }
+
+    form {
+        margin: 4.15em auto 0;
+        z-index: 3000;
+        position: relative;
+    }
+
+    .main {
+        padding: 3.8em 1.5em .75em;
+        position: relative;
+        z-index: 10;
+    }
+
+    .main > div {
+        float: right;
+        margin-top: 12px;
+        margin-right: 1.25%;
+    }
+
+    h2 {
+        float: left;
+        font-size: 1.9em;
+        margin-left: 1.25%;
+    }
+
+}
