@@ -92,6 +92,74 @@ ul {
     margin: 2em 0 1em;
 }
 
+/* Guest List Styles ----------------- */
+
+div > input:last-child {
+    font-size: 1em;
+    margin-left: 6px;
+}
+
+div > label {
+    color: #767676;
+}
+
+.guest {
+    padding: 1em;
+    background: #fff;
+    border-radius: .2em;
+    border: solid 1px rgba(88, 183, 205, .2);
+    border-bottom: solid 2px rgba(88, 183, 205, .2);
+    position: relative;
+}
+
+.guest span,
+.guest input[type=text] {
+    color: #707070;
+    font-size: 1.3em;
+    margin-bottom: .3em;
+}
+
+.guest input[type=text] {
+    padding: .2em;
+    width: 95%;
+    border: 1px dotted rgba(0,0,0, .2);
+}
+
+.guest label {
+    font-size: .9em;
+    display: block;
+    color: rgba(112, 112, 112, .55);
+}
+
+.guest span,
+.guest input[type=text]:first-child {
+    display: block;
+}
+
+.guest button {
+    font-size: .78em;
+    margin-top: 1.65em;
+    margin-right: .4em;
+    border-radius: .3em;
+    padding: .4em .6em;
+    color: #fff;
+    background-color: #58b7cd;
+}
+
+.guest button:last-child {
+    background-color: rgba(88, 183, 205, .5);
+}
+
+.responded {
+    transition: 0.4s;
+    border-color: rgba(88, 183, 205, .9);
+}
+
+.responded label {
+    transition: 0.4s;
+    color: rgba(88, 183, 205, 1);
+}
+
 /* Media Queries ----------------- */
 
 @media (max-width: 768px) {
@@ -122,10 +190,15 @@ ul {
 
     .btn-submit {
         padding: 12px 0;
+        margin-top: .5em;
     }
 
     .main {
         padding: 2em 1em 0.75em;
+    }
+
+    .guest {
+        margin-bottom: 1em;
     }
 }
 
@@ -168,4 +241,28 @@ ul {
         margin-left: 1.25%;
     }
 
+    div > label {
+        margin-top: 12px;
+    }
+
+    ul {
+        display: flex;
+        clear: both;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 1.25em;
+    }
+
+    .guest {
+        flex-grow: 1;
+        flex-basis: 47.5%;
+        margin: 0 1.25% 1em;
+    }
+}
+
+@media (min-width: 880px) {
+
+    .guest {
+        flex-basis: 20%;
+    }
 }
