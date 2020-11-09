@@ -1,0 +1,36 @@
+/* Element Styles ------------------------- */
+
+body {
+    line-height: 1.6;
+    color: #3a3a3a;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navigation  ------------------------- */
+
+.name {
+    margin: 0;
+}
+
+/* Layout Containers ------------------------- */
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-header {
+    background: #0cf05f;
+    padding: 1em 0;
+}
+
+.main-footer {
+    padding: 2em 0;
+    background: #d9e4ea;
+}
+
+/* Page Elements  ------------------------- */
