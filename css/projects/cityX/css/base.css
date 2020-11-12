@@ -1,6 +1,10 @@
 /* Element Styles ------------------------- */
+* {
+    box-sizing: border-box;
+}
 
 body {
+    font-family: 'Catamaran', sans-serif;
     line-height: 1.6;
     color: #3a3a3a;
 }
@@ -16,21 +20,69 @@ a {
     margin: 0;
 }
 
+.name,
+.main-nav li {
+    text-align: center;
+    background: #f0da3a;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.main-nav a {
+    font-size: .95em;
+}
+
+.name a,
+.main-nav a {
+    padding: 10px 15px;
+}
+
 /* Layout Containers ------------------------- */
 
 .container {
-    width: 70%;
-    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .main-header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     background: #0cf05f;
-    padding: 1em 0;
+    margin-bottom: 30px;
 }
 
 .main-footer {
+    text-align: center;
     padding: 2em 0;
     background: #d9e4ea;
 }
 
 /* Page Elements  ------------------------- */
+
+
+/* Media Queries   ------------------------- */
+
+@media (min-width: 769px) {
+
+    .wrapper {
+        height: calc(100vh - 121px);
+    }
+
+    .container {
+        width: 80%;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    .name,
+    .main-nav,
+    .main-nav li {
+        display: inline;
+    }
+
+    .name {
+        width: 240px;
+        margin-right: 50px;
+    }
+
+}
