@@ -18,7 +18,7 @@ header {
 }
 
 h1,
-h2 {
+h1 a {
     font-family: 'Caveat', sans-serif;
 }
 
@@ -73,7 +73,7 @@ a:active {
 
 .name {
     margin: 0;
-    font-size: 1.70em;
+    font-size: 2em;
 }
 
 .name,
@@ -85,7 +85,8 @@ a:active {
 
 .name a,
 .main-nav a {
-    padding: 10px 15px;
+    padding: 5px 15px;
+    display: block;
 }
 
 .container {
@@ -169,6 +170,10 @@ a:active {
     border-bottom: 2px solid #878787;
 }
 
+.arrow {
+    width: 50px;
+    margin-top: 30px;
+}
 
 /* Layout Styles  --------------------- */
 
@@ -192,10 +197,6 @@ a:active {
     box-shadow: 0 0px 15px 0 rgba(0, 0, 0, .8);
 }
 
-.arrow {
-    width: 50px;
-    margin-top: 150px;
-}
 
 /* Floats --------------------- */
 
@@ -227,7 +228,11 @@ a:active {
     .name,
     .main-nav,
     .main-nav li {
-        display: inline;
+        display: inline-block;
+    }
+
+    .main-nav li {
+        margin-right: 15px;
     }
 
     .name {
