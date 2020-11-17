@@ -1,0 +1,38 @@
+.img-featured {
+    float: right;
+    margin: 15px 0 15px 15px;
+}
+
+
+@media (min-width: 769px) {
+
+    header {
+        text-align: center;
+    }
+
+    ul {
+        display: inline-block;
+    }
+
+    nav li {
+        float: left;
+    }
+
+    .article-content {
+        width: 45.5%;
+        float: right;
+    }
+
+    .img-article {
+        width: 45.5%;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .group:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+}
