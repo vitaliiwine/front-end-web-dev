@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c188ff78-1865-4fd8-b1e2-8941d85f6b5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../book-worm/.idea/book-worm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-worm/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-worm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-worm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-worm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-worm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-worm/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-worm/css/floats.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book-worm/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cityX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cityX/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cityX/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../cityX/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cityX/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cityX/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/projects/geForceNow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/projects/geForceNow/index-draft.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../html/projects/lakeTahoe/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="624">
+              <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+            <state relative-caret-position="255">
+              <caret line="239" column="27" selection-start-line="239" selection-start-column="27" selection-end-line="239" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -74,12 +88,12 @@
         <option value="$PROJECT_DIR$/css/box-model.css" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -89,25 +103,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lake-tahoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lake-tahoe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lake-tahoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lake-tahoe" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -148,14 +144,19 @@
       <workItem from="1604058414889" duration="2200000" />
       <workItem from="1605181453339" duration="2790000" />
       <workItem from="1605264363887" duration="2252000" />
+      <workItem from="1605345961202" duration="2227000" />
+      <workItem from="1605359382769" duration="1732000" />
+      <workItem from="1605434226396" duration="661000" />
+      <workItem from="1605612781316" duration="641000" />
+      <workItem from="1605614454781" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61772000" />
+    <option name="totallyTimeSpent" value="67756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24832214" />
@@ -216,17 +217,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+        <state relative-caret-position="624">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="239" column="27" selection-start-line="239" selection-start-column="27" selection-end-line="239" selection-end-column="27" />
         </state>
       </provider>
     </entry>

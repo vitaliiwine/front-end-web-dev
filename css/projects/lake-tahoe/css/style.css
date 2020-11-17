@@ -37,6 +37,7 @@ h2 {
 }
 
 h3 {
+    text-align: center;
     font-size: 1.25em; /* 20px/16px */
     color: #48525c;
     line-height: 1.2;
@@ -49,6 +50,13 @@ img:not(.arrow) {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, .8);
 }
 
+footer {
+    background: #48525c;
+}
+
+footer p {
+    font-size: 1.5em;
+}
 
 /* Pseudo Classes --------------------- */
 
@@ -73,19 +81,20 @@ a:active {
 
 .name {
     margin: 0;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .name,
 .main-nav li {
     text-align: center;
-    margin-top: 6px;
     margin-bottom: 6px;
 }
 
 .name a,
 .main-nav a {
-    padding: 5px 15px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 30px;
     display: block;
 }
 
@@ -159,15 +168,11 @@ a:active {
 .main-footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    border-bottom: 10px solid skyblue;
+    border-top: 10px solid skyblue;
 }
 
 .up-border {
     border-top: 2px solid #878787;
-}
-
-.down-border {
-    border-bottom: 2px solid #878787;
 }
 
 .arrow {
