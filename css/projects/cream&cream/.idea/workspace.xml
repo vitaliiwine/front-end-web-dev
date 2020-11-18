@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd221aef-3121-459d-b119-fe214624b39e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../html/projects/geForceNow/node_modules/normalize.css/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oakland-lake/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oakland-lake/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oakland-lake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oakland-lake/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/reg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/accessible-reg-form.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/images/taco-emoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/images/taco-emoji.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/reg-form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/accessible-reg-form/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/practice/tables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/practice/tables/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/projects/reg-form/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/projects/reg-form/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../html/projects/reg-form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../html/projects/reg-form/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cityX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cityX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cityX/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../cityX/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cityX/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cityX/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reg-form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reg-form/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,16 +21,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
+            <state relative-caret-position="757">
               <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img/cafe.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/feat-img.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/locb.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/locw.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/logo.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2771">
+            <state relative-caret-position="17">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -90,16 +93,35 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="378" />
+    <option name="y" value="87" />
+    <option name="width" value="783" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cream&amp;cream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cream&amp;cream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cream&amp;cream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cream&amp;cream" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -141,17 +163,18 @@
       <workItem from="1590999670140" duration="340000" />
       <workItem from="1591169601729" duration="28000" />
       <workItem from="1601113535060" duration="3370000" />
+      <workItem from="1605696736001" duration="632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31314000" />
+    <option name="totallyTimeSpent" value="31946000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="1" />
+    <frame x="303" y="70" width="626" height="665" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24957556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,19 +209,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
+        <state relative-caret-position="757">
           <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2771">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/img/feat-img.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/locb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/locw.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cafe.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
