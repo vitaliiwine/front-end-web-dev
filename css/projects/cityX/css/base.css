@@ -24,8 +24,10 @@ h3 {
     margin-top: 0;
 }
 
-img {
+img:not(.logo) {
     width: 100%;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
 }
 
 .banner {
@@ -52,6 +54,10 @@ img {
     text-align: center;
     margin: 0;
     font-size: 1.25em;
+}
+
+.active {
+    background: #73fa11;
 }
 
 .main-nav li {
@@ -97,6 +103,19 @@ img {
     background: #0cf05f;
 }
 
+.direction-list {
+    background: #0cf05f;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+    padding: 1em;
+    line-height: 3em;
+    margin-bottom: 30px;
+}
+
+.direction-list a:hover {
+    color: #3a3a3a;
+}
+
 .main-footer {
     text-align: center;
     padding: 2em 0;
@@ -109,6 +128,11 @@ img {
     width: 120px;
     filter: invert(59%) sepia(97%) saturate(626%) hue-rotate(87deg) brightness(105%) contrast(94%);
     margin-top: 30px;
+}
+
+.img-route {
+    width: 100%;
+    height: 220px;
 }
 
 
@@ -153,9 +177,19 @@ img {
         width: 40%;
     }
 
+    .primary-d {
+        float: left;
+        width: 45.5%;
+    }
+
     .secondary {
         float: right;
         width: 60%;
+    }
+
+    .secondary-d {
+        float: right;
+        width: 45.5%;
     }
 
     .col {
