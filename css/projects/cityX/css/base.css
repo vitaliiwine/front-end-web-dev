@@ -192,6 +192,16 @@ img:not(.logo) {
         width: 45.5%;
     }
 
+    .secondary-m {
+        float: left;
+        width: 45.5%;
+    }
+
+    .tertiary-m {
+        float: right;
+        width: 45.5%;
+    }
+
     .col {
         padding-left: 1em;
         padding-right: 1em;
