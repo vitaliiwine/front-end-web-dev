@@ -24,7 +24,22 @@ h3 {
     margin-top: 0;
 }
 
-img:not(.logo) {
+.gallery {
+    text-align: center;
+}
+
+.gallery-pic {
+    width: 300px;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+    margin-bottom: 0;
+}
+
+.gallery-pic:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+img {
     width: 100%;
     border: 1px solid #3a3a3a;
     border-radius: 2px;
@@ -103,6 +118,10 @@ img:not(.logo) {
     background: #0cf05f;
 }
 
+.primary-m {
+    margin-bottom: 20px;
+}
+
 .direction-list {
     background: #0cf05f;
     border: 1px solid #3a3a3a;
@@ -128,6 +147,7 @@ img:not(.logo) {
     width: 120px;
     filter: invert(59%) sepia(97%) saturate(626%) hue-rotate(87deg) brightness(105%) contrast(94%);
     margin-top: 30px;
+    border: 0;
 }
 
 .img-route {
@@ -177,7 +197,7 @@ img:not(.logo) {
         width: 40%;
     }
 
-    .primary-d {
+    .primary-d, .secondary-m {
         float: left;
         width: 45.5%;
     }
@@ -187,17 +207,7 @@ img:not(.logo) {
         width: 60%;
     }
 
-    .secondary-d {
-        float: right;
-        width: 45.5%;
-    }
-
-    .secondary-m {
-        float: left;
-        width: 45.5%;
-    }
-
-    .tertiary-m {
+    .secondary-d, .tertiary-m {
         float: right;
         width: 45.5%;
     }
