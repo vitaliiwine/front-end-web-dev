@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c02fe6a-b790-4c71-bf67-a5f366ea06bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sightseeing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../city-guide/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../city-guide/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/flexbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flexbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directions.html" beforeDir="false" afterPath="$PROJECT_DIR$/directions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/guide.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
+            <state relative-caret-position="-51">
               <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
             </state>
           </provider>
@@ -35,8 +27,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sightseeing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="352">
+              <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -98,7 +99,6 @@
         <option value="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" />
         <option value="$PROJECT_DIR$/css/base-map.css" />
         <option value="$PROJECT_DIR$/directions.html" />
-        <option value="$PROJECT_DIR$/map.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/flexbox.css" />
@@ -106,6 +106,7 @@
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/sightseeing.html" />
+        <option value="$PROJECT_DIR$/map.html" />
       </list>
     </option>
   </component>
@@ -188,18 +189,18 @@
       <workItem from="1605696150022" duration="5778000" />
       <workItem from="1605870425783" duration="3568000" />
       <workItem from="1607111601878" duration="2839000" />
-      <workItem from="1607159098998" duration="6201000" />
+      <workItem from="1607159098998" duration="6605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56584000" />
+    <option name="totallyTimeSpent" value="56988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.49966952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,13 +235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/normalize.css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -252,13 +246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -276,10 +263,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sightseeing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="352">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
         </state>
       </provider>
     </entry>
