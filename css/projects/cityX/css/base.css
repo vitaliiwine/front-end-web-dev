@@ -1,4 +1,5 @@
 /* Element Styles ------------------------- */
+
 * {
     box-sizing: border-box;
 }
@@ -202,6 +203,10 @@ img {
         width: 45.5%;
     }
 
+    .primary-d {
+        margin-bottom: 20px;
+    }
+
     .secondary {
         float: right;
         width: 60%;
@@ -226,7 +231,6 @@ img {
         padding: 10px;
         border: solid 1px #d9e4ea;
     }
-
 }
 
 @media (min-width: 1125px) {
@@ -245,5 +249,4 @@ img {
         float: right;
         width: 30%;
     }
-
 }

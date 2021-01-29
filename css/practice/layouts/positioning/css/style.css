@@ -1,0 +1,50 @@
+/* Page Styles ---------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    padding: 2em;
+    background: #f2f2f2;
+}
+
+a {
+    color: #3acec2;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: 10px 15px;
+}
+
+a:hover {
+    color: #093a58;
+}
+
+.main-header {
+    position: relative;
+    background: #3acec2;
+    padding: .001em;
+}
+
+.main-nav {
+    width: 50%;
+    padding: 1.65em;
+    margin: 0 auto;
+}
+
+.main-nav li {
+    background: #fff;
+    border: solid 1px #093a58;
+}
+
+/* Positioning Styles ---------------- */
+
+.ice-cream {
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
